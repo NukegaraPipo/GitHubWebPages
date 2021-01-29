@@ -44,7 +44,7 @@ function draw(words) {
         .selectAll("text")
         .data(words)
         .enter().append("text")
-        .style("font-size", d => d.size)
+        .style("font-size", d => d.size +"px")
         .style("font-family", "Impact")
         .style("fill", () => d3.schemeSet2[Math.floor(Math.random() * 10) % 7])
         .attr("text-anchor", "middle")

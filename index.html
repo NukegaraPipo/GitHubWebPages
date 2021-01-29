@@ -9,4 +9,17 @@
 <body>
     <!-- スマホ タブレット PCの分岐処理 -->
     <p>最初のページ</p>
+    <div id="resolution"></div>
+    <a href="src/320px/main.html">320px</a>
+    <a href="src/720px/main.html">720px</a>
+    <a href="src/1200px/main.html">1200px</a>
+    <script>
+        var winSize = window.screen;
+
+        targetID = document.getElementById("resolution");
+        targetID.innerHTML ="ユーザー情報："+navigator.userAgent+"</br>"+ "タスクバーなどを引いた有効な画面幅availWidth：" + winSize.availWidth + "</br>"
+        +"画面の向き横msOrientation："+winSize.msOrientation+"</br>"
+        +"横方向のシステム解像度systemXDPI："+winSize.systemXDPI+"</br>"
+        +"スクリーンの幅width："+winSize.width;
+    </script>
 </body>
