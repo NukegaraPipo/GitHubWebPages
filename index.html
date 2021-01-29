@@ -17,10 +17,12 @@
         var winSize = window.screen;
 
         targetID = document.getElementById("resolution");
-        targetID.innerHTML ="ユーザー情報："+navigator.userAgent+"</br>"+ "タスクバーなどを引いた有効な画面幅availWidth：" + winSize.availWidth + "</br>"
-        +"画面の向き横orientation："+winSize.orientation+"</br>"
-        +"横方向のシステム解像度systemXDPI："+winSize.systemXDPI+"</br>"
+        targetID.innerHTML ="ユーザー情報："+navigator.userAgent+"</br>"
+        +"タスクバーなどを引いた有効な画面幅availWidth：" + winSize.availWidth + "</br>"
+        +"画面の向き横orientation："+screen.orientation+"</br>"
+        +"横方向のシステム解像度systemXDPI："+screen.systemXDPI+"</br>"
         +"スクリーンの幅width："+winSize.width+"</br>"
-        +"ピクセル解像度比"+winSize.devicePixelRatio;
+        +"ピクセル解像度比："+devicePixelRatio+"</br>"
+        +"ウィンドウサイズ："+window.innerWidth;
     </script>
 </body>
