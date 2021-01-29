@@ -14,7 +14,20 @@
     <a href="src/720px/main.html">720px</a>
     <a href="src/1200px/main.html">1200px</a>
     <script>
-        var winSize = window.screen;
+        // 端末の解像度を取得
+        var pixelResolutionWidth =  window.screen * devicePixelRatio;
+        if(pixelResolutionWidth < 720)
+        {
+            window.location.href = 'src/320px/main.html';
+        }
+        else if(720 <= pixelResolutionWidth&& pixelResolutionWidth <1200)
+        {
+            window.location.href = 'src/720px/main.html';
+        }
+        else
+        {
+            window.location.href = 'src/1200px/main.html';
+        }
 
         targetID = document.getElementById("resolution");
         targetID.innerHTML ="ユーザー情報："+navigator.userAgent+"</br>"
