@@ -18,11 +18,14 @@
 
         targetID = document.getElementById("resolution");
         targetID.innerHTML ="ユーザー情報："+navigator.userAgent+"</br>"
-        +"タスクバーなどを引いた有効な画面幅availWidth：" + winSize.availWidth + "</br>"
         +"画面の向き横orientation："+screen.orientation+"</br>"
         +"横方向のシステム解像度systemXDPI："+screen.systemXDPI+"</br>"
-        +"スクリーンの幅width："+winSize.width+"</br>"
+        +"タスクバーなどを引いた有効な画面幅availWidth：" + winSize.availWidth + "</br>"
+        +"画面の幅："+winSize.width+"</br>"
         +"ピクセル解像度比："+devicePixelRatio+"</br>"
-        +"ウィンドウサイズ："+window.innerWidth;
+        +"ウィンドウの内部の横幅をピクセル単位："+window.innerWidth+"</br>"
+        +"ウィンドウの内部の縦幅をピクセル単位："+window.innerHeight+"</br></br>"
+        +"端末の解像度は："+winSize.width*devicePixelRatio;
+        
     </script>
 </body>
