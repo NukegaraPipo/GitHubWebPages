@@ -16,17 +16,17 @@
     <script>
         // 端末の解像度を取得
         var pixelResolutionWidth =  window.screen * devicePixelRatio;
-        if(pixelResolutionWidth < 720)
+        if(1200 <= pixelResolutionWidth)
         {
-            window.location.href = 'src/320px/main.html';
+            window.location.href = 'src/1200px/main.html';
         }
-        else if(720 <= pixelResolutionWidth&& pixelResolutionWidth <1200)
+        else if(720 <= pixelResolutionWidth)
         {
             window.location.href = 'src/720px/main.html';
         }
         else
         {
-            window.location.href = 'src/1200px/main.html';
+            window.location.href = 'src/320px/main.html';
         }
 
         targetID = document.getElementById("resolution");
