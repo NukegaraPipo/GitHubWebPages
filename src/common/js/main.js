@@ -2,29 +2,26 @@
 var width = 320;
 var height = 320;
 
-window.onload = function () {
-    // ページ読み込み時に実行したい処
+// ワードクラウドの表示メソッド
+function LoadWordCloud() {
     $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
-    // var pixelResolutionWidth = window.screen.width * devicePixelRatio;
-    // if (1200 <= pixelResolutionWidth) {
-    //     width = 1200;
-    //     height = 1200;
-    // }
-    // else if (720 <= pixelResolutionWidth) {
-    //     width = 720;
-    //     height = 720;
-    // }
-    // else {
-    //     width = 320;
-    //     height = 320;
-    // }
+    var pixelResolutionWidth = window.screen.width * devicePixelRatio;
+
+    if (1200 <= pixelResolutionWidth) {
+        width = 1200;
+        height = 1200;
+    }
+    else if (720 <= pixelResolutionWidth) {
+        width = 720;
+        height = 720;
+    }
+    else {
+        width = 320;
+        height = 320;
+    }
     // ローカルで見るとき用のリンク
-    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
-        // $.getJSON('../common/json/words.json', (data) => {
-        for (var item in data) {
-            console.log(data[item]);
-            console.log(data[item]['size']);
-        }
+    //$.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
+    $.getJSON('../common/json/words.json', (data) => {
         layout(data);
     });
 }
