@@ -1,6 +1,6 @@
 window.onload = function () {
     // ページ読み込み時に実行したい処
-    $('#resolution').text("解像度：" + window.screen.availWidth);
+    $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
     // ローカルで見るとき用のリンク
     // $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
     $.getJSON('../common/json/words.json', (data) => {
@@ -44,7 +44,7 @@ function draw(words) {
         .selectAll("text")
         .data(words)
         .enter().append("text")
-        .style("font-size", d => d.size +"px")
+        .style("font-size", d => d.size + "px")
         .style("font-family", "Impact")
         .style("fill", () => d3.schemeSet2[Math.floor(Math.random() * 10) % 7])
         .attr("text-anchor", "middle")
