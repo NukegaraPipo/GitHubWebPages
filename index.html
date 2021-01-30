@@ -3,7 +3,6 @@
 <html lang="ja">
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -13,17 +12,23 @@
     <a href="src/320px/main.html">320px</a>
     <a href="src/720px/main.html">720px</a>
     <a href="src/1200px/main.html">1200px</a>
+    <div id="result"></div>
     <script>
+        result = document.getElementById("result");
+
         // 端末の解像度を取得
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
         if (pixelResolutionWidth <= 1200) {
-            window.location.href = 'src/1200px/main.html';
+            result.innerHTML = "これは1200px以上のはず：" + pixelResolutionWidth;
+            //window.location.href = 'src/1200px/main.html';
         }
         else if (pixelResolutionWidth <= 720) {
-            window.location.href = 'src/720px/main.html';
+            result.innerHTML = "これは720px以上のはず：" + pixelResolutionWidth;
+            //window.location.href = 'src/720px/main.html';
         }
         else {
-            window.location.href = 'src/320px/main.html';
+            result.innerHTML = "これは320px以下のはず：" + pixelResolutionWidth;
+            //window.location.href = 'src/320px/main.html';
         }
 
         targetID = document.getElementById("resolution");
