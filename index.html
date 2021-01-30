@@ -7,44 +7,16 @@
 
 <body>
     <!-- スマホ タブレット PCの分岐処理 -->
-    <p>最初のページ</p>
-    <div id="resolution"></div>
-    <a href="src/320px/main.html">320px</a>
-    <a href="src/720px/main.html">720px</a>
-    <a href="src/1200px/main.html">1200px</a>
-    <div id="result"></div>
-    <div id="type"></div>
     <script>
-        result = document.getElementById("result");
-        type = document.getElementById("type");
-        // 端末の解像度を取得
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
-        type.innerHTML = "横幅取得：" + typeof window.screen.width + "</br>"
-            + "比率取得：" + typeof devicePixelRatio + "</br>"
-            + "乗算：" + pixelResolutionWidth + "これの型：" + typeof pixelResolutionWidth;
         if (1200 <= pixelResolutionWidth) {
-            result.innerHTML = "これは1200px以上のはず：" + pixelResolutionWidth;
-            window.location.href = 'src/1200px/main.html';
+            window.location.href = 'src/1200px/top.html';
         }
         else if (720 <= pixelResolutionWidth) {
-            result.innerHTML = "これは720px以上のはず：" + pixelResolutionWidth;
-            window.location.href = 'src/720px/main.html';
+            window.location.href = 'src/720px/top.html';
         }
         else {
-            result.innerHTML = "これは320px以下のはず：" + pixelResolutionWidth;
-            window.location.href = 'src/320px/main.html';
+            window.location.href = 'src/320px/top.html';
         }
-
-        targetID = document.getElementById("resolution");
-        targetID.innerHTML = "ユーザー情報：" + navigator.userAgent + "</br>"
-            + "画面の向き横orientation：" + screen.orientation + "</br>"
-            + "横方向のシステム解像度systemXDPI：" + screen.systemXDPI + "</br>"
-            + "タスクバーなどを引いた有効な画面幅availWidth：" + screen.availWidth + "</br>"
-            + "画面の幅：" + screen.width + "</br>"
-            + "ピクセル解像度比：" + devicePixelRatio + "</br>"
-            + "ウィンドウの内部の横幅をピクセル単位：" + window.innerWidth + "</br>"
-            + "ウィンドウの内部の縦幅をピクセル単位：" + window.innerHeight + "</br></br>"
-            + "端末の解像度は：" + screen.width * devicePixelRatio;
-
     </script>
 </body>

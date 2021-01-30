@@ -1,9 +1,26 @@
+// グラフの表示設定
+var width = 320;
+var height = 320;
+
 window.onload = function () {
     // ページ読み込み時に実行したい処
     $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
+    // var pixelResolutionWidth = window.screen.width * devicePixelRatio;
+    // if (1200 <= pixelResolutionWidth) {
+    //     width = 1200;
+    //     height = 1200;
+    // }
+    // else if (720 <= pixelResolutionWidth) {
+    //     width = 720;
+    //     height = 720;
+    // }
+    // else {
+    //     width = 320;
+    //     height = 320;
+    // }
     // ローカルで見るとき用のリンク
-    // $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
-    $.getJSON('../common/json/words.json', (data) => {
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
+        // $.getJSON('../common/json/words.json', (data) => {
         for (var item in data) {
             console.log(data[item]);
             console.log(data[item]['size']);
@@ -11,10 +28,6 @@ window.onload = function () {
         layout(data);
     });
 }
-
-// グラフの表示設定
-var width = 320;
-var height = 320;
 
 function layout(words) {
     for (var i = 0; i < words.length; i++) {
