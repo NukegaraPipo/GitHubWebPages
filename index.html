@@ -24,15 +24,15 @@
             + "乗算：" + pixelResolutionWidth + "これの型：" + typeof pixelResolutionWidth;
         if (1200 <= pixelResolutionWidth) {
             result.innerHTML = "これは1200px以上のはず：" + pixelResolutionWidth;
-            //window.location.href = 'src/1200px/main.html';
+            window.location.href = 'src/1200px/main.html';
         }
         else if (720 <= pixelResolutionWidth) {
             result.innerHTML = "これは720px以上のはず：" + pixelResolutionWidth;
-            //window.location.href = 'src/720px/main.html';
+            window.location.href = 'src/720px/main.html';
         }
         else {
             result.innerHTML = "これは320px以下のはず：" + pixelResolutionWidth;
-            //window.location.href = 'src/320px/main.html';
+            window.location.href = 'src/320px/main.html';
         }
 
         targetID = document.getElementById("resolution");
