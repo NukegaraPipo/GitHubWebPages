@@ -39,6 +39,7 @@ header > ul {
 	height: 100%;
 }
 
+/* スクロールエリア */
 div.scrollArea {
 	background: #ffffff;
     width: auto;
@@ -49,4 +50,20 @@ div.scrollArea {
 	padding: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
+
+}
+
+div.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* フッター */
+footer{
+	background: #ffffff;
+    width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

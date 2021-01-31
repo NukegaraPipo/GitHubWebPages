@@ -1,0 +1,69 @@
+/* CSS Reset */
+html, body,button, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output,  section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* ヘッダーのハイライト #BCE6F2 */
+body {
+	background: #6cb861;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 1200px;
+	height: auto;
+}
+
+/* ヘッダー */
+header{
+	background: #ffffff;
+	position: fixed;	/* 位置固定 */
+	top: 0;				/* top固定 */ 
+	width: auto;
+	height: auto;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 0px;
+}
+
+header ul li{
+	padding-inline-start: 0px;
+	display: inline-block;
+	font-size: 0px;
+}
+
+header > ul {
+	height: 100%;
+}
+
+/* スクロールエリア */
+div.scrollArea {
+	background: #ffffff;
+    width: auto;
+    height: auto;
+	font-size: 64px;
+	margin-top: 344px;
+	margin-bottom: 0;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+div.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* フッター */
+footer{
+	background: #ffffff;
+    width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

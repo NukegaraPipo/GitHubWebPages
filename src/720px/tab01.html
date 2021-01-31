@@ -15,11 +15,49 @@
 </head>
 
 <body>
-    <!-- スマホ タブレット PCの分岐処理 -->
-    <p>タブレット用ページ 幅：720px</p>
-    <p id="resolution"></p>
-    <div id="wordcloud"></div>
-    <a href="../320px/tab01.html">320pxのページへ</a>
-    <a href="../1200px/tab01.html">1200pxのページへ</a>
-    <a href="../../index.html">Index.htmlに戻る</a>
+    <!-- Header -->
+    <header>
+        <ul>
+            <li><button type="submit" onclick="location.href='http://www.benesse.co.jp/'">
+                    <img src="images/00_header/header01.png"></button>
+            </li>
+            <img src="images/00_header/header02.png">
+        </ul>
+        <ul>
+            <li>
+                <img src="images/tab/tab_1l.png">
+            </li>
+            <li><button type="submit" onclick="location.href='tab02.html'">
+                    <img src="images/tab/tab_2s.png"></button>
+            </li>
+            <li><button type="submit" onclick="location.href='tab03.html'">
+                    <img src="images/tab/tab_3s.png"></button>
+            </li>
+            <li><button type="submit" onclick="location.href='tab04.html'">
+                    <img src="images/tab/tab_4s.png"></button>
+            </li>
+        </ul>
+        <img src="images/tab/tab_1line.png">
+    </header>
+
+    <!-- Scrolle Area -->
+    <div class="scrollArea">
+        <div class="content">
+            <p>タブレット用ページ 幅：720px</p>
+            <p id="resolution"></p>
+            <img src="images/01_top/contents_top01.png">
+            <p>頻出ワードはこちらの画像欲しい</p>
+            <div id="wordcloud"></div>
+            <button type="submit" onclick="location.href=''">
+                <img src="images/01_top/contents_topbutton01.png"></button>
+            <footer>
+                <a href="../320px/tab01.html">320pxのページへ</a>
+                <a href="../1200px/tab01.html">1200pxのページへ</a>
+                <a href="../../index.html">Index.htmlに戻る</a>
+            </footer>
+        </div>
+    </div>
+    <script>
+        LoadWordCloud();
+    </script>
 </body>
