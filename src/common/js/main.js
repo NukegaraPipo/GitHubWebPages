@@ -8,14 +8,17 @@ function LoadWordCloud() {
     var pixelResolutionWidth = window.screen.width * devicePixelRatio;
 
     if (1200 <= pixelResolutionWidth) {
+        console.log("1200通った");
         width = 1200;
         height = 1200;
     }
     else if (720 <= pixelResolutionWidth) {
+        console.log("720通った");
         width = 720;
         height = 720;
     }
     else {
+        console.log("320通った");
         width = 320;
         height = 320;
     }
@@ -28,7 +31,7 @@ function LoadWordCloud() {
 
 function layout(words) {
     for (var i = 0; i < words.length; i++) {
-        words[i]['size'] *= 1.1;
+        words[i]['size'] *= 5;
     }
 
     d3.layout.cloud()
