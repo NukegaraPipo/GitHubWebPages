@@ -55,7 +55,7 @@ function layout(words, tagId) {
         .rotate(() => ~~Math.random() * 2)
         .font("Impact")
         .fontSize(d => d.size)
-        .on("end", draw, id)
+        .on("end", draw)
         .start();
 }
 
@@ -75,8 +75,8 @@ function draw(words) {
         .style("font-family", "Impact")
         .style("fill", () => d3.schemeSet2[Math.floor(Math.random() * 10) % 7])
         .attr("text-anchor", "middle")
-        .style("cursor", "pointer")
+        .style("cursor", "default")
         .attr("transform", d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")")
-        .text(d => d.text)
-        .on("click", d => window.open(d.url, "_blank"));
+        .text(d => d.text);
+    // .on("click", d => window.open(d.url, "_blank"));
 }
