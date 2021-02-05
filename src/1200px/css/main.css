@@ -8,13 +8,20 @@ html, body,button, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	vertical-align: baseline;
 }
 
+button
+{
+	background-color:#ffffff;
+	display: inline-flex;
+}
+
 /* ヘッダーのハイライト #BCE6F2 */
 body {
 	background: #6cb861;
 	text-align: center;
 	margin: 0 auto 0 auto;
-	width: 1200px;
+	width: 1280px;
 	height: auto;
+	font-size: 0px;
 }
 
 /* ヘッダー */
@@ -27,17 +34,32 @@ header{
 	left: 50%;
 	transform: translate(-50%, 0);
 	font-size: 0px;
+	z-index: 10;
 }
 
-header ul li{
-	padding-inline-start: 0px;
-	display: inline-block;
+.head{
+	display: flex;
 	font-size: 0px;
 }
 
-header > ul {
-	height: 100%;
+.head button{
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
 }
+
+.head img{
+	margin-left: auto;
+	margin-right: 102px;
+}
+
+.tab{
+	padding-inline-start: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0px;
+}
+
 
 /* スクロールエリア */
 div.scrollArea {
@@ -45,12 +67,12 @@ div.scrollArea {
     width: auto;
     height: auto;
 	font-size: 64px;
-	margin-top: 344px;
+	margin-top: 98px;
 	margin-bottom: 0;
 	padding: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
-
+	z-index: 5;
 }
 
 div.content{
@@ -59,11 +81,27 @@ div.content{
 	align-items: center;
 }
 
+.back{
+	position: relative;
+	height: 100%;
+}
+
+.mainArea{
+    position: absolute;
+    top: 1412px;
+}
+
 /* フッター */
 footer{
 	background: #ffffff;
-    width: auto;
+	width: auto;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+footer li{
+	display: inline;
+	font-size: 15px;
 }

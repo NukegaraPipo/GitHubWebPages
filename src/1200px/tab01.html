@@ -17,43 +17,84 @@
 <body>
     <!-- Header -->
     <header>
-        <ul>
-            <li><button type="submit" onclick="location.href='http://www.benesse.co.jp/'">
+        <ul class="head">
+            <li>
+                <button type="submit" onclick="location.href='http://www.benesse.co.jp/'">
                     <img src="images/00_header/header01.png"></button>
             </li>
             <img src="images/00_header/header02.png">
         </ul>
-        <ul>
+        <ul class="tab">
             <li>
-                <img src="images/tab/tab_1l.png">
+                <img src="images/tab/tab_top_02.png">
             </li>
-            <li><button type="submit" onclick="location.href='tab02.html'">
-                    <img src="images/tab/tab_2s.png"></button>
+            <li>
+                <img src="images/tab/tab_border.png">
             </li>
-            <li><button type="submit" onclick="location.href='tab03.html'">
-                    <img src="images/tab/tab_3s.png"></button>
+            <li>
+                <button type="submit" onclick="location.href='tab02.html'">
+                    <img src="images/tab/tab_festa_01.png"></button>
             </li>
-            <li><button type="submit" onclick="location.href='tab04.html'">
-                    <img src="images/tab/tab_4s.png"></button>
+            <li>
+                <img src="images/tab/tab_border.png">
+            </li>
+            <li>
+                <button type="submit" onclick="location.href='tab03.html'">
+                    <img src="images/tab/tab_support_01.png"></button>
+            </li>
+            <li>
+                <img src="images/tab/tab_border.png">
+            </li>
+            <li>
+                <button type="submit" onclick="location.href='tab04.html'">
+                    <img src="images/tab/tab_report_01.png"></button>
             </li>
         </ul>
-        <img src="images/tab/tab_1line.png">
+        <img src="images/tab/tab_top_line.png">
     </header>
+
     <!-- Scrolle Area -->
     <div class="scrollArea">
         <div class="content">
-            <p>PC用ページ 幅：1200px</p>
-            <p id="resolution"></p>
-            <img src="images/01_top/contents_top01.png">
-            <p>頻出ワードはこちらの画像欲しい</p>
-            <div id="wordcloud"></div>
-            <button type="submit" onclick="location.href=''">
-                <img src="images/01_top/contents_topbutton01.png"></button>
-            <footer>
-                <a href="../320px/tab01.html">320pxのページへ</a>
-                <a href="../720px/tab01.html">720pxのページへ</a>
-                <a href="../../index.html">Index.htmlに戻る</a>
-            </footer>
+            <img src="images/01_top/pc_top_event.png">
+            <div cclass="back">
+                <img src="images/01_top/pc_top_background.png">
+                <img src="images/01_top/pc_top_background.png">
+                <div class="mainArea">
+                    <ul>
+                        <li><img src="images/01_top/pc_top_headline.png"></li>
+
+                        <li><img src="images/01_top/pc_top_subtitle_academic.png"></li>
+                        <div id="wordcloud01"></div>
+                        <li> <button type="submit" onclick="location.href=''">
+                                <img src="images/01_top/pc_top_botton_academic.png"></button>
+                        </li>
+
+                        <li><img src="images/01_top/pc_top_subtitle_social.png"></li>
+                        <div id="wordcloud02"></div>
+                        <li> <button type="submit" onclick="location.href=''">
+                                <img src="images/01_top/pc_top_botton_social_inoverter.png"></button>
+                        </li>
+
+                        <li> <img src="images/01_top/pc_top_subtitle_maker.png"></li>
+                        <div id="wordcloud03"></div>
+                        <li>
+                            <button type="submit" onclick="location.href=''">
+                                <img src="images/01_top/pc_top_botton_maker.png"></button>
+                        </li>
+                    </ul>
+                    <!-- Footer -->
+                    <footer>
+                        <button type="submit" onclick="location.href='http://www.benesse.co.jp/'">
+                            <img src="images/footer/footer.png"></button>
+                        <ul>
+                            <li><a href="">個人情報保護への取り組みについて</li></a>
+                            <li>|</li>
+                            <li><a href="">会社案内</li></a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
         </div>
     </div>
     <script>

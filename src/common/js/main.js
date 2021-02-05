@@ -1,38 +1,51 @@
 // グラフの表示設定
 var width = 320;
 var height = 320;
-
+var id = "";
+var magni = 1;
 // ワードクラウドの表示メソッド
 function LoadWordCloud() {
-    $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
-    var pixelResolutionWidth = window.screen.width * devicePixelRatio;
+    // $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
+    ResolutionChange();
+    // ローカルで見るとき用のリンク
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word01.json', (data) => {
+        // $.getJSON('../common/json/words.json', (data) => {
+        layout(data, "#wordcloud01");
+    });
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word02.json', (data) => {
+        // $.getJSON('../common/json/words.json', (data) => {
+        layout(data, "#wordcloud02");
+    });
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word03.json', (data) => {
+        // $.getJSON('../common/json/words.json', (data) => {
+        layout(data, "#wordcloud03");
+    });
+}
 
-    if (1200 <= pixelResolutionWidth) {
-        console.log("1200通った");
-        width = 1200;
-        height = 1200;
+// ワードクラウドのサイズを変更
+function ResolutionChange() {
+    var pixelResolutionWidth = window.screen.width * devicePixelRatio;
+    if (1280 <= pixelResolutionWidth) {
+        width = 856;
+        height = 450;
+        magni = 2;
     }
     else if (720 <= pixelResolutionWidth) {
-        console.log("720通った");
         width = 720;
         height = 720;
     }
     else {
-        console.log("320通った");
         width = 320;
         height = 320;
     }
-    // ローカルで見るとき用のリンク
-    //$.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/words.json', (data) => {
-    $.getJSON('../common/json/words.json', (data) => {
-        layout(data);
-    });
 }
 
-function layout(words) {
+// 描画設定
+function layout(words, tagId) {
     for (var i = 0; i < words.length; i++) {
-        words[i]['size'] *= 5;
+        words[i]['size'] *= magni;
     }
+    id = tagId;
 
     d3.layout.cloud()
         .size([width, height])
@@ -42,18 +55,19 @@ function layout(words) {
         .rotate(() => ~~Math.random() * 2)
         .font("Impact")
         .fontSize(d => d.size)
-        .on("end", draw)
+        .on("end", draw, id)
         .start();
 }
 
 // layoutの出力を受け取り単語を描画
 function draw(words) {
-    d3.select("#wordcloud")
+    d3.select(id)
         .append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
         .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+        .attr("display", "inline-flex")
         .selectAll("text")
         .data(words)
         .enter().append("text")
