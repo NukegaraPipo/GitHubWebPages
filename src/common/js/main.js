@@ -28,7 +28,7 @@ function ResolutionChange() {
     if (1280 <= pixelResolutionWidth) {
         width = 856;
         height = 450;
-        magni = 2;
+        magni = 1;
     }
     else if (720 <= pixelResolutionWidth) {
         width = 720;
