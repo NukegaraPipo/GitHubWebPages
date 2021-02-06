@@ -97,7 +97,7 @@ div.scrollArea {
 	height: 100%;
 }
 
-div.content{
+.content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
