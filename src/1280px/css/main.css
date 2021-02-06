@@ -94,12 +94,12 @@ div.content{
 }
 
 /* tab01 */
-.mainArea{
+div.mainArea{
     position: absolute;
     top: 1412px;
 }
 
-.mainArea ul li{
+div.mainArea ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -108,8 +108,8 @@ div.content{
 /* tab02 */
 .scheduletext{
 	position: absolute;
-	margin-left:553px;
-	bottom: 370px;
+	margin-left:554px;
+	bottom: 395px;
 	font-size: 21px;
 }
 
@@ -124,7 +124,7 @@ div.content{
 }
 
 /* フッター */
-footer{
+footer {
 	background: #ffffff;
 	width: auto;
 	height: auto;
@@ -138,13 +138,9 @@ footer{
 footer ul{
 	margin-top: 16px;
 	margin-bottom: 50px;
-}
-
-footer ul li{
-	display: inline;
 	font-size: 15px;
 }
 
-footer ul li span{
-	margin: 0 5px 0 5px;
+footer ul span{
+	margin: 0 10px 0 10px;
 }

@@ -112,13 +112,9 @@ footer{
 footer ul{
 	margin-top: 12px;
 	margin-bottom: 40px;
+	font-size: 12px;
 }
 
-footer ul li{
-	display: inline;
-	font-size: 10px;
-}
-
-footer ul li span{
-	margin: 0 1px 0 1px;
+footer ul span{
+	margin: 0 7px 0 7px;
 }

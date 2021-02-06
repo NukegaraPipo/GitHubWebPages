@@ -108,7 +108,7 @@ div.scrollArea {
 	position: absolute;
 	margin-left:290px;
 	bottom: 255px;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 /* フッター */
@@ -126,13 +126,9 @@ footer{
 footer ul{
 	margin-top: 15px;
 	margin-bottom: 45px;
+	font-size: 12px;
 }
 
-footer ul li{
-	display: inline;
-	font-size: 15px;
-}
-
-footer ul li span{
-	margin: 0 5px 0 5px;
+footer ul span{
+	margin: 0 6px 0 6px;
 }
