@@ -4,7 +4,7 @@ var height = 320;
 var id = "";
 var magni = 1;
 // ワードクラウドの表示メソッド
-function LoadWordCloud() {
+$(function () {
     // $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
     ResolutionChange();
     // ローカルで見るとき用のリンク
@@ -20,7 +20,7 @@ function LoadWordCloud() {
         // $.getJSON('../common/json/words.json', (data) => {
         layout(data, "#wordcloud03");
     });
-}
+});
 
 // ワードクラウドのサイズを変更
 function ResolutionChange() {
@@ -38,7 +38,6 @@ function ResolutionChange() {
     else {
         width = 255;
         height = 200;
-        magni = 1;
     }
 }
 
