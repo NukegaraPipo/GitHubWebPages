@@ -28,15 +28,17 @@ function ResolutionChange() {
     if (1280 <= pixelResolutionWidth) {
         width = 856;
         height = 450;
-        magni = 1;
+        magni = 3;
     }
     else if (720 <= pixelResolutionWidth) {
-        width = 720;
-        height = 720;
+        width = 560;
+        height = 305;
+        magni = 2;
     }
     else {
-        width = 320;
-        height = 320;
+        width = 255;
+        height = 200;
+        magni = 1;
     }
 }
 
@@ -78,5 +80,4 @@ function draw(words) {
         .style("cursor", "default")
         .attr("transform", d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")")
         .text(d => d.text);
-    // .on("click", d => window.open(d.url, "_blank"));
 }

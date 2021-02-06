@@ -99,6 +99,10 @@ div.content{
     top: 1412px;
 }
 
+.mainArea ul li{
+	display: list-item;
+}
+
 /* tab02 */
 .scheduletext{
 	position: absolute;

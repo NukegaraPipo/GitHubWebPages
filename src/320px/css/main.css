@@ -1,11 +1,24 @@
 /* CSS Reset */
-html, body,button, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output,  section, summary, time, mark, audio, video {
+html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
+}
+
+html{
+	touch-action: manipulation;
 	vertical-align: baseline;
+}
+
+ul{
+	list-style: none;
+	font-size: 0;
+}
+
+button{
+	background-color:#ffffff;
+	display: inline-flex;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -15,6 +28,7 @@ body {
 	margin: 0 auto 0 auto;
 	width: 320px;
 	height: auto;
+	font-size: 0px;
 }
 
 /* ヘッダー */
@@ -27,6 +41,7 @@ header{
 	left: 50%;
 	transform: translate(-50%, 0);
 	font-size: 0px;
+	z-index: 10;
 }
 
 header ul li{
@@ -35,22 +50,45 @@ header ul li{
 	font-size: 0px;
 }
 
-header > ul {
-	height: 100%;
+.head{
+	display: flex;
+	font-size: 0px;
 }
 
+.head button{
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+.head img{
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+.tab{
+	padding-inline-start: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0px;
+}
+
+.tab li{
+	margin-top: auto;
+}
+
+/* 共通 */
 /* スクロールエリア */
 div.scrollArea {
 	background: #ffffff;
     width: auto;
     height: auto;
-	font-size: 16px;
 	margin-top: 85px;
 	margin-bottom: 0;
 	padding: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
-
+	z-index: 5;
 }
 
 div.content{
@@ -62,8 +100,25 @@ div.content{
 /* フッター */
 footer{
 	background: #ffffff;
-    width: auto;
+	width: auto;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+
+footer ul{
+	margin-top: 12px;
+	margin-bottom: 40px;
+}
+
+footer ul li{
+	display: inline;
+	font-size: 10px;
+}
+
+footer ul li span{
+	margin: 0 1px 0 1px;
 }
