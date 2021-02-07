@@ -8,16 +8,16 @@ $(function () {
     // $('#resolution').text("端末の解像度は：" + window.screen.width * devicePixelRatio);
     ResolutionChange();
     // ローカルで見るとき用のリンク
-    //$.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word01.json', (data) => {
-    $.getJSON('../common/json/word01.json', (data) => {
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word01.json', (data) => {
+        // $.getJSON('../common/json/word01.json', (data) => {
         layout(data, "#wordcloud01");
     });
-    // $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word02.json', (data) => {
-    $.getJSON('../common/json/word02.json', (data) => {
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word02.json', (data) => {
+        // $.getJSON('../common/json/word02.json', (data) => {
         layout(data, "#wordcloud02");
     });
-    //$.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word03.json', (data) => {
-    $.getJSON('../common/json/word03.json', (data) => {
+    $.getJSON('https://nukegarapipo.github.io/GitHubWebPages/src/common/json/word03.json', (data) => {
+        // $.getJSON('../common/json/word03.json', (data) => {
         layout(data, "#wordcloud03");
     });
 });
