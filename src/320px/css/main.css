@@ -144,6 +144,15 @@ div.content{
 	margin: 50px 0 40px 0;
 }
 
+/* tab03 */
+.supporthead1{
+	margin: 26px 0 26px 0;
+}
+
+.supporthead2{
+	margin: 0 0 26px 0;
+}
+
 /* フッター */
 footer{
 	background: #ffffff;
