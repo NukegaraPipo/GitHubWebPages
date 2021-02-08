@@ -17,8 +17,9 @@ ul{
 }
 
 button{
-	background-color:#ffffff;
+	background: rgba(0,0,0,0);
 	display: inline-flex;
+	opacity: 1;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -103,6 +104,15 @@ div.mainArea ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+div.mainArea ul li > img{
+	margin: 20px 0 20px 0;
+}
+
+div.mainArea ul li > div{
+	margin: 20px 0 20px 0;
+
 }
 
 /* tab02 */
