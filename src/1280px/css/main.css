@@ -113,6 +113,10 @@ div.mainArea ul li{
 	font-size: 21px;
 }
 
+.festa li button{
+	margin: 20px 20px 0 20px;
+}
+
 /* tab03 */
 .supportarea{
 	position: absolute;
