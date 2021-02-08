@@ -123,7 +123,7 @@ div.mainArea ul li > div{
 	font-size: 21px;
 }
 
-.festa li button{
+.festa li > button{
 	margin: 20px 20px 0 20px;
 }
 
@@ -133,8 +133,18 @@ div.mainArea ul li > div{
 	top: 0;
 }
 
+.supportarea img{
+	margin: 20px 0 20px 0;
+}
+
 .supportarea ul li{
 	display: inline;
+}
+
+/* tab04 */
+
+.reportarea img{
+	margin: 10px 0 10px 0;
 }
 
 /* フッター */
