@@ -142,6 +142,7 @@ div.mainArea ul li > button{
 .supportarea{
 	position: absolute;
 	top: 0;
+	bottom: 0;
 }
 
 .title01{
@@ -160,9 +161,21 @@ div.mainArea ul li > button{
 	display: inline;
 }
 
+.supportlist01{
+	margin: 70px 0 0 0;
+}
+
+.supportlist02{
+	margin: 65px 0 0 0;
+}
+
 /* tab04 */
-.reportarea img{
-	margin: 10px 0 10px 0;
+.repporttitle{
+	margin: 62px 0 65px 0;
+}
+
+.repport > button{
+	margin: 50px 0 0 222px;
 }
 
 /* フッター */
@@ -173,7 +186,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 97px;
+	margin-top: 197px;
 	margin-bottom: 33px;
 }
 
