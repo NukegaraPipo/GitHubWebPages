@@ -22,6 +22,10 @@ button{
 	opacity: 1;
 }
 
+img{
+	vertical-align: bottom;
+}
+
 /* ヘッダーのハイライト #BCE6F2 */
 body {
 	background: #6cb861;
@@ -100,19 +104,22 @@ div.mainArea{
     top: 1412px;
 }
 
+img.title{
+	margin: 150px 0 65px 0;
+}
+
 div.mainArea ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-div.mainArea ul li > img{
-	margin: 20px 0 20px 0;
+div.mainArea ul li > div{
+	margin: 40px 0 50px 0;
 }
 
-div.mainArea ul li > div{
-	margin: 20px 0 20px 0;
-
+div.mainArea ul li > button{
+	margin: 0px 0 100px 0;
 }
 
 /* tab02 */
@@ -123,8 +130,12 @@ div.mainArea ul li > div{
 	font-size: 21px;
 }
 
+.festa >img{
+	margin: 150px 0 65px 0;
+}
+
 .festa li > button{
-	margin: 20px 20px 0 20px;
+	margin: 50px 20px 100px 20px;
 }
 
 /* tab03 */
@@ -133,8 +144,16 @@ div.mainArea ul li > div{
 	top: 0;
 }
 
-.supportarea img{
-	margin: 20px 0 20px 0;
+.title01{
+	margin: 62px 0 0 0;
+}
+
+.title02{
+	margin-top: 150px;
+}
+
+.supportarea > img{
+	margin: 65px 0 0 0;
 }
 
 .supportarea ul li{
@@ -142,7 +161,6 @@ div.mainArea ul li > div{
 }
 
 /* tab04 */
-
 .reportarea img{
 	margin: 10px 0 10px 0;
 }
