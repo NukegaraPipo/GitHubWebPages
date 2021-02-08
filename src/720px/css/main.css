@@ -17,8 +17,13 @@ ul{
 }
 
 button{
-	background-color:#ffffff;
+	background: rgba(0,0,0,0);
 	display: inline-flex;
+	opacity: 1;
+}
+
+img{
+	vertical-align: bottom;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -103,12 +108,58 @@ div.scrollArea {
 	align-items: center;
 }
 
+/* tab01 */
+.toptitle{
+	margin: 80px 0 50px 0;
+}
+
+.topsubtitle{
+	margin: 0 0 30px 0;
+}
+
+.toparea > button{
+	margin: 45px 0 60px 0;
+}
+
 /* tab02 */
+.festaarea > button{
+	margin: 45px 0 60px 0;
+}
+
+.festatitle{
+	margin-top: 36px;
+}
+
 .scheduletext{
 	position: absolute;
-	margin-left:290px;
-	bottom: 255px;
+	margin-left:298px;
+	bottom: 250px;
 	font-size: 13px;
+}
+
+.festasubtitle{
+	margin: 80px 0 70px 0;
+}
+
+/* tab03 */
+.supportarea ul li > img{
+	margin: 0 50px 0 50px;
+}
+
+.supporter1 > img{
+	margin-bottom: 60px;
+}
+
+.supporttitle1{
+	margin: 36px 0 70px 0;
+}
+
+.supporttitle2{
+	margin: 80px 0 70px 0;
+}
+
+.supportlist{
+	margin: 60px 0 0 0;
 }
 
 /* フッター */
@@ -119,7 +170,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 90px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 }
 
