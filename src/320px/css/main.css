@@ -154,11 +154,28 @@ div.scrollArea {
 
 /* tab03 */
 .supporthead1{
-	margin: 26px 0 26px 0;
+	margin: 56px 0 32px 0;
 }
 
 .supporthead2{
-	margin: 0 0 26px 0;
+	margin: 64px 0 32px 0;
+}
+
+.supportlis > img{
+	margin: 0 0 64px 0;
+}
+
+/* tab04 */
+.reportarea > button{
+	margin: 30px auto 0 16px;
+}
+
+.reporttitle{
+	margin: 56px 0 0 0;
+}
+
+.reportdisc{
+	margin: 30px auto 14px 16px;
 }
 
 /* フッター */
