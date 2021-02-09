@@ -79,10 +79,8 @@ div.scrollArea {
     width: auto;
     height: auto;
 	font-size: 64px;
-	margin-top: 98px;
-	margin-bottom: 0;
-	padding: 0;
-	overflow-y: auto;
+	margin: 98px 0 0 0;
+	overflow-y: hidden;
 	overflow-x: hidden;
 	z-index: 5;
 }
@@ -105,7 +103,7 @@ div.mainArea{
 }
 
 img.title{
-	margin: 150px 0 65px 0;
+	margin: 88px 0 72px 0;
 }
 
 div.mainArea ul li{
@@ -115,11 +113,11 @@ div.mainArea ul li{
 }
 
 div.mainArea ul li > div{
-	margin: 40px 0 50px 0;
+	margin: 28px 0 40px 0;
 }
 
 div.mainArea ul li > button{
-	margin: 0px 0 100px 0;
+	margin: 0px 0 104px 0;
 }
 
 /* tab02 */
@@ -130,12 +128,16 @@ div.mainArea ul li > button{
 	font-size: 21px;
 }
 
-.festa >img{
-	margin: 150px 0 65px 0;
+.festa > img{
+	margin: 88px 0 65px 0;
+}
+
+.festa > li{
+	margin: 50px 0 100px 0;
 }
 
 .festa li > button{
-	margin: 50px 20px 100px 20px;
+	margin: 0 20px 0 20px;
 }
 
 /* tab03 */
@@ -146,15 +148,15 @@ div.mainArea ul li > button{
 }
 
 .title01{
-	margin: 62px 0 0 0;
+	margin: 56px 0 0 0;
 }
 
 .title02{
-	margin-top: 150px;
+	margin: 176px 0 0 0;
 }
 
 .supportarea > img{
-	margin: 65px 0 0 0;
+	margin: 72px 0 0 0;
 }
 
 .supportarea ul li{
@@ -162,20 +164,23 @@ div.mainArea ul li > button{
 }
 
 .supportlist01{
-	margin: 70px 0 0 0;
+	margin: 72px 0 56px 0;
 }
 
 .supportlist02{
-	margin: 65px 0 0 0;
+	margin: 0 0 0 0;
 }
 
 /* tab04 */
 .repporttitle{
-	margin: 62px 0 65px 0;
+	margin: 56px 0 72px 0;
 }
 
+.repportdisc{
+	margin: 0 0 28px 0;
+}
 .repport > button{
-	margin: 50px auto 0 222px;
+	margin: 28px auto 0 222px;
 }
 
 /* フッター */
@@ -186,8 +191,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 197px;
-	margin-bottom: 33px;
+	padding: 204px 0 33px 0;
 }
 
 footer ul{

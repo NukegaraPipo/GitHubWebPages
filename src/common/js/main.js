@@ -26,8 +26,8 @@ $(function () {
 function ResolutionChange() {
     var pixelResolutionWidth = window.screen.width * devicePixelRatio;
     if (1280 <= pixelResolutionWidth) {
-        width = 856;
-        height = 450;
+        width = 464;
+        height = 216;
         magni = 3;
     }
     else if (720 <= pixelResolutionWidth) {
