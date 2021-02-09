@@ -96,19 +96,23 @@ div.scrollArea {
 	z-index: 5;
 }
 
-div.content{
+.content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 /* tab01 */
+.toparea > div{
+	margin: 32px 0 24px 0;
+}
+
 .toparea > button{
-	margin: 40px 0 0 0;
+	margin: 0 0 64px 0;
 }
 
 .topevent{
-	margin: 11px 0 100px 0;
+	margin: 56px 0 100px 0;
 }
 
 .toptitle{
@@ -116,16 +120,12 @@ div.content{
 }
 
 .subtitle{
-	margin: 50px 0 16px 0;
+	margin: 0 0 0 0;
 }
 
 /* tab02 */
 .festatitle1{
-	margin: 11px 0 0 0;
-}
-
-.festatitle2{
-	margin: 100px 0 0 0;
+	margin: 56px 0 0 0;
 }
 
 .back{
@@ -140,8 +140,16 @@ div.content{
 	font-size: 10px;
 }
 
+.festatitle2{
+	margin: 32px 0 0 0;
+}
+
 .festadisc > img{
-	margin: 50px 0 40px 0;
+	margin: 32px 0 24px 0;
+}
+
+.festadisc > button{
+	margin: 0 0 64px 0;
 }
 
 /* tab03 */
@@ -161,13 +169,11 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 100px;
-	margin-bottom: 25px;
+	padding: 144px 0 56px 0;
 }
 
 footer ul{
-	margin-top: 12px;
-	margin-bottom: 40px;
+	margin: 12px 0 40px 0;
 	font-size: 12px;
 }
 
