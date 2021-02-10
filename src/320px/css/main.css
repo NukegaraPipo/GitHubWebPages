@@ -88,7 +88,7 @@ div.scrollArea {
 	background: #ffffff;
     width: auto;
     height: auto;
-	margin-top: 85px;
+	margin-top: 76px;
 	margin-bottom: 0;
 	padding: 0;
 	overflow-y: auto;
@@ -111,12 +111,8 @@ div.scrollArea {
 	margin: 0 0 64px 0;
 }
 
-.topevent{
-	margin: 56px 0 100px 0;
-}
-
 .toptitle{
-	margin: 0 0 15px 0;
+	margin: 64px 0 30px 0;
 }
 
 .subtitle{
@@ -135,17 +131,17 @@ div.scrollArea {
 
 .scheduletext{
 	position: absolute;
-	margin-left:120px;
-	bottom: 218px;
-	font-size: 10px;
+	margin-left:82px;
+	bottom: 170px;
+	font-size: 16px;
 }
 
 .festatitle2{
-	margin: 32px 0 0 0;
+	margin: 48px 0 30px 0;
 }
 
 .festadisc > img{
-	margin: 32px 0 24px 0;
+	margin: 16px 0 24px 0;
 }
 
 .festadisc > button{
@@ -154,11 +150,11 @@ div.scrollArea {
 
 /* tab03 */
 .supporthead1{
-	margin: 56px 0 32px 0;
+	margin: 32px 0 30px 0;
 }
 
 .supporthead2{
-	margin: 64px 0 32px 0;
+	margin: 64px 0 30px 0;
 }
 
 .supportlis > img{
@@ -167,11 +163,11 @@ div.scrollArea {
 
 /* tab04 */
 .reportarea > button{
-	margin: 30px auto 0 16px;
+	margin: 16px auto 0 16px;
 }
 
 .reporttitle{
-	margin: 56px 0 0 0;
+	margin: 32px 0 0 0;
 }
 
 .reportdisc{
@@ -186,11 +182,11 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 144px 0 56px 0;
+	padding: 144px 0 16px 0;
 }
 
 footer ul{
-	margin: 12px 0 40px 0;
+	margin: 16px 0 24px 0;
 	font-size: 12px;
 }
 
