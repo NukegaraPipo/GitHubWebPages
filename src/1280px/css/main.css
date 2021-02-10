@@ -56,13 +56,11 @@ header{
 
 .head button{
 	float: left;
-	margin-top: 10px;
-	margin-left: 100px;
+	margin: 20px 0 20px 24px;
 }
 
-.head img{
-	margin-left: auto;
-	margin-right: 102px;
+.head > img{
+	margin: 11px 20px 0 auto;
 }
 
 .tab{
@@ -74,7 +72,7 @@ header{
 
 /* 共通 */
 /* スクロールエリア */
-div.scrollArea {
+.scrollArea {
 	background: #ffffff;
     width: auto;
     height: auto;
@@ -85,7 +83,7 @@ div.scrollArea {
 	z-index: 5;
 }
 
-div.content{
+.content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -97,43 +95,48 @@ div.content{
 }
 
 /* tab01 */
-div.mainArea{
+.mainArea{
     position: absolute;
+	width: 1280px;
     top: 1412px;
 }
 
-img.title{
-	margin: 88px 0 72px 0;
-}
-
-div.mainArea ul li{
+.mainArea ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-div.mainArea ul li > div{
+.toptitle{
+	margin: 88px auto 72px 216px;
+}
+
+.subtitle{
+	margin: 0 auto 0 auto;
+}
+
+.mainArea ul li > div{
 	margin: 28px 0 40px 0;
 }
 
-div.mainArea ul li > button{
+.mainArea ul li > button{
 	margin: 0px 0 104px 0;
 }
 
 /* tab02 */
 .scheduletext{
 	position: absolute;
-	margin-left:554px;
-	bottom: 395px;
+	margin-left: 578px;
+	bottom: 345px;
 	font-size: 21px;
 }
 
-.festa > img{
-	margin: 88px 0 65px 0;
+.festatitle{
+	margin: 88px 0 72px 0;
 }
 
 .festa > li{
-	margin: 50px 0 100px 0;
+	margin: 57px 0 104px 0;
 }
 
 .festa li > button{
@@ -148,15 +151,15 @@ div.mainArea ul li > button{
 }
 
 .title01{
-	margin: 56px 0 0 0;
+	margin: 56px 0 28px 0;
 }
 
 .title02{
-	margin: 176px 0 0 0;
+	margin: 176px 0 28px 0;
 }
 
 .supportarea > img{
-	margin: 72px 0 0 0;
+	margin: 0 0 72px 0;
 }
 
 .supportarea ul li{
@@ -164,7 +167,7 @@ div.mainArea ul li > button{
 }
 
 .supportlist01{
-	margin: 72px 0 56px 0;
+	margin: 0 0 56px 0;
 }
 
 .supportlist02{
@@ -173,14 +176,14 @@ div.mainArea ul li > button{
 
 /* tab04 */
 .repporttitle{
-	margin: 56px 0 72px 0;
+	margin: 56px 0 0 0;
 }
 
 .repportdisc{
-	margin: 0 0 28px 0;
+	margin: 28px 0 28px 0;
 }
 .repport > button{
-	margin: 28px auto 0 222px;
+	margin: 28px auto 0 216px;
 }
 
 /* フッター */
@@ -191,12 +194,15 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 204px 0 33px 0;
+	padding: 204px 0 16px 0;
+}
+
+footer > button{
+	margin: 16px 0 0 0;
 }
 
 footer ul{
-	margin-top: 16px;
-	margin-bottom: 50px;
+	margin: 16px 0 24px 0;
 	font-size: 15px;
 }
 
