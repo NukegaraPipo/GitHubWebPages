@@ -108,16 +108,16 @@ div.scrollArea {
 }
 
 /* tab01 */
-.toptitle{
-	margin: 80px 0 50px 0;
+.toparea > div{
+	margin: 24px 0 32px 0;
 }
 
-.topsubtitle{
-	margin: 0 0 30px 0;
+.toptitle{
+	margin: 72px 0 66px 0;
 }
 
 .toparea > button{
-	margin: 45px 0 60px 0;
+	margin: 0 0 144px 0;
 }
 
 /* tab02 */
@@ -126,7 +126,7 @@ div.scrollArea {
 }
 
 .festatitle{
-	margin-top: 36px;
+	margin: 48px 0 56px 0;
 }
 
 .scheduletext{
@@ -137,7 +137,21 @@ div.scrollArea {
 }
 
 .festasubtitle{
-	margin: 80px 0 70px 0;
+	margin: 88px auto 66px 64px;
+}
+
+.festadivision{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.festadivision > img{
+	margin: 0 0 24px 0;
+}
+
+.festadivision > button{
+	margin: 0 0 66px 0;
 }
 
 /* tab03 */
@@ -146,32 +160,32 @@ div.scrollArea {
 }
 
 .supporter1 > img{
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 }
 
 .supporttitle1{
-	margin: 36px 0 70px 0;
+	margin: 48px auto 24px 64px;
 }
 
 .supporttitle2{
-	margin: 80px 0 70px 0;
+	margin: 144px auto 24px 64px;
 }
 
 .supportlist{
-	margin: 60px 0 0 0;
+	margin: 80px 0 0 0;
 }
 
 /* tab03 */
 .reporttitle{
-	margin: 36px 0 22px 0;
+	margin: 48px auto 24px 64px;
 }
 
 .reportdisc{
-	margin: 0 0 50px 0;
+	margin: 0 auto 46px 64px;
 }
 
 .reportarea > button{
-	margin: 30px auto 0 82px;
+	margin: 20px auto 8px 82px;
 }
 
 /* フッター */
@@ -182,12 +196,11 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 150px 0 30px 0;
+	padding: 200px 0 16px 0;
 }
 
 footer ul{
-	margin-top: 15px;
-	margin-bottom: 45px;
+	margin: 16px 0 24px 0;
 	font-size: 12px;
 }
 

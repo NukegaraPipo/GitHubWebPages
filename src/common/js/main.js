@@ -31,8 +31,8 @@ function ResolutionChange() {
         magni = 3;
     }
     else if (720 <= pixelResolutionWidth) {
-        width = 560;
-        height = 305;
+        width = 592;
+        height = 392;
         magni = 2;
     }
     else {
