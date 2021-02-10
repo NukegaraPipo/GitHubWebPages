@@ -26,25 +26,26 @@ $(function () {
 function ResolutionChange() {
     var pixelResolutionWidth = window.screen.width * devicePixelRatio;
     if (1280 <= pixelResolutionWidth) {
-        width = 464;
-        height = 216;
-        magni = 3;
+        width = 848;
+        height = 464;
+        magni = 20;
     }
     else if (720 <= pixelResolutionWidth) {
         width = 592;
         height = 392;
-        magni = 2;
+        magni = 10;
     }
     else {
         width = 255;
         height = 200;
+        magni = 5;
     }
 }
 
 // 描画設定
 function layout(words, tagId) {
     for (var i = 0; i < words.length; i++) {
-        words[i]['size'] *= magni;
+        words[i]['size'] += magni;
     }
     id = tagId;
 
