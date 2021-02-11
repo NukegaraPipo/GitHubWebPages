@@ -26,7 +26,7 @@ a{
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: blue;
+	color: black;
 }
 
 button{
@@ -258,6 +258,7 @@ header{
 .supporter h1{
 	margin: 64px auto 24px 216px;
 	color:#F78D02;
+	font-size: 30px;
 }
 
 .greetingtable{
@@ -324,22 +325,24 @@ header{
 .report{
 	text-align: left;
 	width: 1280px;
-	color: #27B1D9;
 }
 
 .report h1{
-	font-size: 48px;
+	font-size: 30px;
 	margin: 48px auto 0 216px;
+	color: #27B1D9;
 }
 
 .report p{
-	font-size: 32px;
+	font-size: 18px;
 	margin: 24px auto 24px 216px;
 }
 
 .report a{
-	font-size: 24px;
+	font-size: 26px;
 	margin: 48px auto 0 216px;
+	text-decoration:underline;
+ 	color:#27B1D9;
 }
 
 /* フッター */

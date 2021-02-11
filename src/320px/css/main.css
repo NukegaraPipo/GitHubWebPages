@@ -108,14 +108,28 @@ div.scrollArea {
 }
 
 /* tab01 */
+.topdisc{
+	font-size: 18px;
+	margin: 0 30px 0 30px;
+}
+
+.topmarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
 .top h1{
 	font-size: 22px;
 	margin-top: 64px;
+	word-wrap: normal;
 }
 
 .top h2{
 	font-size: 18px;
 	margin-top: 30px;
+}
+
+.top img{
+	margin: 32px 0 24px 0;
 }
 
 /* tab02 */
@@ -126,9 +140,8 @@ div.scrollArea {
 	margin: 0 30px 0 30px;
 }
 
-.marker1{
+.festamarker{
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
-	z-index: 10;
 }
 
 .festa h1{
@@ -194,12 +207,12 @@ div.scrollArea {
 .report{
 	text-align: left;
 	width: 320px;
-	color: #27B1D9;
 }
 
 .report h1{
 	font-size: 22px;
 	margin: 48px auto 0 16px;
+	color: #27B1D9;
 }
 
 .report p{
@@ -210,6 +223,8 @@ div.scrollArea {
 .report a{
 	font-size: 14px;
 	margin: 48px auto 0 16px;
+	color: #27B1D9;
+	text-decoration: none;
 }
 
 /* フッター */
