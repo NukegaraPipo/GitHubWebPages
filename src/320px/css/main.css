@@ -22,17 +22,17 @@ h1{
 
 a{
 	text-decoration: none;
-
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: blue;
+	color: black;
 }
 
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
 	opacity: 1;
+	outline:  none;
 }
 
 img{
@@ -107,32 +107,47 @@ div.scrollArea {
 	z-index: 5;
 }
 
-.content{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 /* tab01 */
-.toparea > div{
-	margin: 32px 0 24px 0;
+.top h1{
+	font-size: 22px;
+	margin-top: 64px;
 }
 
-.toparea > button{
-	margin: 0 0 64px 0;
-}
-
-.toptitle{
-	margin: 64px 0 30px 0;
-}
-
-.subtitle{
-	margin: 0 0 0 0;
+.top h2{
+	font-size: 18px;
+	margin-top: 30px;
 }
 
 /* tab02 */
-.festatitle1{
-	margin: 56px 0 0 0;
+.festahistory{
+	font-size: 15px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 0 30px 0 30px;
+}
+
+.marker1{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+	z-index: 10;
+}
+
+.festa h1{
+	font-size: 32px;
+	margin: 46px 0 30px 0;
+}
+
+.festa h2{
+	font-size: 20px;
+	margin: 0 0 16px 0;
+}
+
+.festa p{
+	font-size: 16px;
+	margin: 16px 0 24px 0;
+}
+
+.festamargin{
+	margin-bottom: 64px;
 }
 
 .back{
@@ -145,18 +160,6 @@ div.scrollArea {
 	margin-left:82px;
 	bottom: 170px;
 	font-size: 16px;
-}
-
-.festatitle2{
-	margin: 48px 0 30px 0;
-}
-
-.festadisc > img{
-	margin: 16px 0 24px 0;
-}
-
-.festadisc > button{
-	margin: 0 0 64px 0;
 }
 
 /* tab03 */
