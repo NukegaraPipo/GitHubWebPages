@@ -16,6 +16,10 @@ ul{
 	font-size: 0;
 }
 
+h1{
+	font-size: 32px;
+}
+
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
@@ -34,6 +38,7 @@ body {
 	width: 720px;
 	height: auto;
 	font-size: 0px;
+	font-family: "筑紫A丸ゴシック";
 }
 
 /* ヘッダー */
@@ -86,7 +91,6 @@ div.scrollArea {
 	background: #ffffff;
     width: auto;
     height: auto;
-	font-size: 80x;
 	margin: 106px 0 0 0;
 	padding: 0;
 	overflow-y: hidden;
@@ -153,24 +157,33 @@ div.scrollArea {
 }
 
 /* tab03 */
-.supportarea ul li > img{
-	margin: 0 65px 0 65px;
+.suporter{
+	text-align: center;
+	width: 100%;
+	top: 0;
 }
 
-.supporter1 > img{
-	margin-bottom: 80px;
+.suporter h1{
+	text-align: left;
+	margin: 64px auto 24px 48px;
+	color:#F78D02;
 }
 
-.supporttitle1{
-	margin: 48px auto 24px 64px;
+.name{
+	font-size: 20px;
+	margin: 10px 10px;
 }
 
-.supporttitle2{
-	margin: 144px auto 24px 64px;
+.position{
+	font-size: 16px;
+	color: #533104;
 }
 
-.supportlist{
-	margin: 80px 0 0 0;
+.supotertext{
+	font-size: 18px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 0 100px 0 100px;
 }
 
 /* tab03 */
@@ -185,6 +198,29 @@ div.scrollArea {
 .reportarea > button{
 	margin: 20px auto 8px 82px;
 }
+
+/* tab04 */
+.report{
+	text-align: left;
+	width: 720px;
+	color: #27B1D9;
+}
+
+.report h1{
+	font-size: 24px;
+	margin: 48px auto 0 48px;
+}
+
+.report p{
+	font-size: 20px;
+	margin: 24px auto 24px 48px;
+}
+
+.report a{
+	font-size: 18px;
+	margin: 48px auto 0 48px;
+}
+
 
 /* フッター */
 footer{
