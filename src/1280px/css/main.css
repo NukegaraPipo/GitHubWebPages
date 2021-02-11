@@ -17,12 +17,12 @@ ul{
 }
 
 h1{
-	font-size: 48px;
+	font-size: 32px;
+	text-align: left;
 }
 
 a{
 	text-decoration: none;
-
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -33,6 +33,7 @@ button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
 	opacity: 1;
+	outline:  none;
 }
 
 img{
@@ -157,47 +158,40 @@ header{
 	z-index: 5;
 }
 
-.content{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .back{
 	position: relative;
 	height: 100%;
 }
 
 /* tab01 */
-.mainArea{
+.top{
     position: absolute;
 	width: 1280px;
     top: 1412px;
 }
 
-.mainArea ul li{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.top h1{
+	font-size: 48px;
+	margin: 0 auto 0 64px;
+	color: #06C1C1;
 }
 
-.toptitle{
-	margin: 88px auto 72px 216px;
+.top h2{
+	text-align: center;
+	font-size: 32px;
 }
 
-.subtitle{
+.topbutton{
+	text-align: center;
 	margin: 0 auto 0 auto;
 }
 
-.mainArea ul li > div{
-	margin: 28px 0 40px 0;
-}
-
-.mainArea ul li > button{
-	margin: 0px 0 104px 0;
-}
-
 /* tab02 */
+.festa h1{
+	color: #A74BD6;
+	margin: 54px auto 0 64px;
+}
+
 .scheduletext{
 	position: absolute;
 	margin-left: 563px;
@@ -205,16 +199,29 @@ header{
 	font-size: 21px;
 }
 
-.festatitle{
-	margin: 88px 0 72px 0;
+.festatable{
+	width: auto;
+	margin: 0 146px 0 146px;
 }
 
-.festa > li{
-	margin: 57px 0 104px 0;
+.festablock{
+	display: table;
+	width: 982px;
+	text-align: center;
 }
 
-.festa li > button{
-	margin: 0 20px 0 20px;
+.festaitem{
+	display: table-cell;
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
+
+.festaitem h2{
+	font-size: 24px;
+}
+
+.festaitem p{
+	font-size: 18px;
 }
 
 /* tab03 */
