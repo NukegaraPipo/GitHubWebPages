@@ -99,7 +99,7 @@ div.scrollArea {
 	background: #ffffff;
     width: auto;
     height: auto;
-	margin: 106px 0 0 0;
+	margin: 140px 0 0 0;
 	padding: 0;
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -171,40 +171,37 @@ div.scrollArea {
 	top: 0;
 }
 
-.suporter h1{
-	text-align: left;
-	margin: 64px auto 24px 48px;
-	color:#F78D02;
+.suporter img{
+	margin-top:62px;
+}
+
+.organizer{
+	margin: 62px 0 0 0;
+	font-size: 45px;
+	color:black;
+}
+
+.suporterlist{
+	margin: 162px 0 0 0;
+	font-size: 45px;
+	color:black;
 }
 
 .name{
-	font-size: 20px;
-	margin: 10px 10px;
+	font-size: 30px;
+	margin: 38px 0 20px 0;
 }
 
 .position{
-	font-size: 16px;
+	font-size: 25px;
 	color: #533104;
 }
 
 .supotertext{
-	font-size: 18px;
+	font-size: 30px;
 	text-align: left;
 	word-wrap: normal;
-	margin: 0 100px 0 100px;
-}
-
-/* tab03 */
-.reporttitle{
-	margin: 48px auto 24px 64px;
-}
-
-.reportdisc{
-	margin: 0 auto 46px 64px;
-}
-
-.reportarea > button{
-	margin: 20px auto 8px 82px;
+	margin: 38px 30px 0 30px;
 }
 
 /* tab04 */
