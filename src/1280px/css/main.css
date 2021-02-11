@@ -126,8 +126,8 @@ header{
 /* tab02 */
 .scheduletext{
 	position: absolute;
-	margin-left: 578px;
-	bottom: 345px;
+	margin-left: 563px;
+	bottom: 295px;
 	font-size: 21px;
 }
 
@@ -146,41 +146,32 @@ header{
 /* tab03 */
 .supportarea{
 	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	top: 0;
 	bottom: 0;
 }
 
 .title01{
-	margin: 56px 0 28px 0;
+	margin: 56px auto 28px 216px;
 }
 
 .title02{
-	margin: 176px 0 28px 0;
+	margin: 176px auto 28px 216px;
 }
 
-.supportarea > img{
+.supporter > img{
 	margin: 0 0 72px 0;
-}
-
-.supportarea ul li{
-	display: inline;
-}
-
-.supportlist01{
-	margin: 0 0 56px 0;
-}
-
-.supportlist02{
-	margin: 0 0 0 0;
 }
 
 /* tab04 */
 .repporttitle{
-	margin: 56px 0 0 0;
+	margin: 56px auto 0 216px;
 }
 
 .repportdisc{
-	margin: 28px 0 28px 0;
+	margin: 28px auto 28px 216px;
 }
 .repport > button{
 	margin: 28px auto 0 216px;
