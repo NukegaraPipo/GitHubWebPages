@@ -63,11 +63,71 @@ header{
 	margin: 11px 20px 0 auto;
 }
 
-.tab{
+.tab > li{
 	padding-inline-start: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 0px;
+}
+
+.tab01 {
+    background: url("../images/00_header/pc_tab_top_01.png") no-repeat;
+}
+ 
+.tab01 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_top_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab01 a:hover {
+    background-image: url("../images/00_header/pc_tab_top_02.png") ;
+}
+
+.tab02 {
+    background: url("../images/00_header/pc_tab_festa_01.png") no-repeat;
+}
+ 
+.tab02 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_festa_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab02 a:hover {
+    background-image: url("../images/00_header/pc_tab_festa_02.png") ;
+}
+
+.tab03 {
+    background: url("../images/00_header/pc_tab_supporter_01.png") no-repeat;
+}
+ 
+.tab03 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_supporter_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab03 a:hover {
+    background-image: url("../images/00_header/pc_tab_supporter_02.png") ;
+}
+
+.tab04 {
+    background: url("../images/00_header/pc_tab_report_01.png") no-repeat;
+}
+ 
+.tab04 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_report_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab04 a:hover {
+    background-image: url("../images/00_header/pc_tab_report_02.png") ;
 }
 
 /* 共通 */
