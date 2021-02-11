@@ -20,6 +20,15 @@ h1{
 	font-size: 48px;
 }
 
+a{
+	text-decoration: none;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: blue;
+}
+
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
@@ -308,6 +317,7 @@ header{
 .report{
 	text-align: left;
 	width: 1280px;
+	color: #27B1D9;
 }
 
 .report h1{

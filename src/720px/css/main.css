@@ -20,6 +20,15 @@ h1{
 	font-size: 32px;
 }
 
+a{
+	text-decoration: none;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: blue;
+}
+
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
@@ -220,7 +229,6 @@ div.scrollArea {
 	font-size: 18px;
 	margin: 48px auto 0 48px;
 }
-
 
 /* フッター */
 footer{
