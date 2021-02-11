@@ -16,6 +16,10 @@ ul{
 	font-size: 0;
 }
 
+h1{
+	font-size: 48px;
+}
+
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
@@ -34,6 +38,7 @@ body {
 	width: 1280px;
 	height: auto;
 	font-size: 0px;
+	font-family: "筑紫A丸ゴシック";
 }
 
 /* ヘッダー */
@@ -204,37 +209,97 @@ header{
 }
 
 /* tab03 */
-.supportarea{
+.supporter{
 	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	text-align: left;
+	width: 1280px;
 	top: 0;
-	bottom: 0;
 }
 
-.title01{
-	margin: 56px auto 28px 216px;
+.name{
+	font-size: 18px;
+	margin: 10px 10px;
 }
 
-.title02{
-	margin: 176px auto 28px 216px;
+.position{
+	font-size: 21px;
 }
 
-.supporter > img{
-	margin: 0 0 72px 0;
+/* tab03 開催者挨拶 */
+.supporter h1{
+	margin: 64px auto 24px 216px;
 }
+
+.greetingtable{
+	width: auto;
+	margin: 0 216px 0 216px;
+}
+
+.greetingblock{
+	display: table;
+}
+
+.greetingicon{
+	display: table-cell;
+	text-align: center;
+	padding-right: 30px;
+}
+
+.greetingtext{
+	display: table-cell;
+	width: 700px;
+	font-size: 17px;
+	text-align: left;
+	vertical-align: top;
+	word-wrap: normal;
+}
+
+/* tab03 サポーター一覧 */
+.supportertable{
+	width: auto;
+	margin: 0 auto 0 216px;
+}
+
+.supporterblock{
+	display: table;
+	margin: 0;
+}
+
+.supportericon{
+	display: table-cell;
+	text-align: center;
+	padding-left: 30px;
+}
+
+.supportertext{
+	display: table-cell;
+	width: 700px;
+	font-size: 17px;
+	text-align: left;
+	vertical-align:top;
+	word-wrap: normal;
+}
+
 
 /* tab04 */
-.repporttitle{
-	margin: 56px auto 0 216px;
+.report{
+	text-align: left;
+	width: 1280px;
 }
 
-.repportdisc{
-	margin: 28px auto 28px 216px;
+.report h1{
+	font-size: 48px;
+	margin: 48px auto 0 216px;
 }
-.repport > button{
-	margin: 28px auto 0 216px;
+
+.report p{
+	font-size: 32px;
+	margin: 24px auto 24px 216px;
+}
+
+.report a{
+	font-size: 24px;
+	margin: 48px auto 0 216px;
 }
 
 /* フッター */
@@ -245,7 +310,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 204px 0 16px 0;
+	padding: 120px 0 16px 0;
 }
 
 footer > button{
