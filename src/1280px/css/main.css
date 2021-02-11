@@ -217,17 +217,31 @@ header{
 }
 
 .name{
-	font-size: 18px;
+	font-size: 20px;
 	margin: 10px 10px;
 }
 
 .position{
-	font-size: 21px;
+	font-size: 16px;
+	color: #533104;
+}
+
+.iconleft{
+	padding-left: 30px;
+}
+
+.iconright{
+	padding-right: 30px;
+}
+
+.iconcenter{
+	padding: 0 40px 0 40px;
 }
 
 /* tab03 開催者挨拶 */
 .supporter h1{
 	margin: 64px auto 24px 216px;
+	color:#F78D02;
 }
 
 .greetingtable{
@@ -242,13 +256,12 @@ header{
 .greetingicon{
 	display: table-cell;
 	text-align: center;
-	padding-right: 30px;
 }
 
 .greetingtext{
 	display: table-cell;
-	width: 700px;
-	font-size: 17px;
+	width: 600px;
+	font-size: 18px;
 	text-align: left;
 	vertical-align: top;
 	word-wrap: normal;
@@ -262,24 +275,34 @@ header{
 
 .supporterblock{
 	display: table;
-	margin: 0;
+	margin: 0 0 72px 0;
 }
 
 .supportericon{
 	display: table-cell;
 	text-align: center;
-	padding-left: 30px;
+	width: 250px;
 }
 
 .supportertext{
 	display: table-cell;
-	width: 700px;
-	font-size: 17px;
+	width: 600px;
+	font-size: 18px;
 	text-align: left;
 	vertical-align:top;
 	word-wrap: normal;
 }
 
+.supportertable2{
+	width: auto;
+	margin: 0 auto 0 216px;
+	
+}
+
+.supporterblock{
+	display: table;
+	margin: 0 0 56px 0;
+}
 
 /* tab04 */
 .report{
