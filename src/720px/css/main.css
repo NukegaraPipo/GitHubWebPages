@@ -112,23 +112,23 @@ div.scrollArea {
 	height: 100%;
 }
 
-.content{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 /* tab01 */
-.toparea > div{
-	margin: 24px 0 32px 0;
+.top h2{
+	font-size: 45px;
+	margin-top: 162px;
 }
 
-.toptitle{
-	margin: 72px 0 66px 0;
+.top h3{
+	font-size: 37px;
+	margin-top: 62px;
 }
 
-.toparea > button{
-	margin: 0 0 144px 0;
+.top > img{
+	margin: 38px 0 24px 0;
+}
+
+.topmargin{
+	margin-bottom: 100px;
 }
 
 /* tab02 */
