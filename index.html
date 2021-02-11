@@ -6,17 +6,44 @@
 </head>
 
 <body>
+
+    <dic id="test"></dic>
     <!-- スマホ タブレット PCの分岐処理 -->
     <script>
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
+        // UAを取得して、文字列の検索をする、検索対象のリストを配列で用意しておく
+
+        var deviceList = [
+            "iPhone", "iOS", "Android", "Xperia", "SO-04J", "SOV39", "SCV31", "SCV33", "SCV36", "SCV38", "SCV39", "SCV37", "SCV40", "SCV42", "SCV44", "SCG02", "SCV49", "SCG05", "HTV33", "Pixel 3 XL", "SHV39", "SHV42"
+        ]
+        // string
+        var userAgent = window.navigator.userAgent.toLowerCase();
+        console.log(userAgent);
+
+        var test = document.getElementById("test");
+
+        for (var i = 0; i < deviceList.length; i++) {
+            //console.log(deviceList[i]);
+            console.log(userAgent.indexOf(deviceList[i]));
+        }
+
         if (1200 <= pixelResolutionWidth) {
-            window.location.href = 'src/1280px/tab01.html';
+
+            var userAgent = window.navigator.userAgent.toLowerCase();
+            for (var i = 0; i < deviceList.length; i++) {
+                //console.log(deviceList[i]);
+                if (userAgent.indexOf(deviceList[i]) > -1) {
+                    test.innerHTML = "この端末は：" + deviceList[i];
+                }
+            }
+
+            //window.location.href = 'src/1280px/tab01.html';
         }
         else if (720 <= pixelResolutionWidth) {
-            window.location.href = 'src/720px/tab01.html';
+            //window.location.href = 'src/720px/tab01.html';
         }
         else {
-            window.location.href = 'src/320px/tab01.html';
+            //window.location.href = 'src/320px/tab01.html';
         }
     </script>
 </body>
