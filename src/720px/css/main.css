@@ -76,11 +76,11 @@ header ul li{
 
 .head li > button{
 	float: left;
-	margin: 16px 0 21px 56px;
+	margin: 15px 0 17px 30px;
 }
 
 .head > img{
-	margin: 8px 40px 9px auto;
+	margin: 15px 7px 20px auto;
 }
 
 .tab{
