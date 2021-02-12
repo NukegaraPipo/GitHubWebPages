@@ -139,7 +139,12 @@ div.scrollArea {
 	margin-left:234px;
 	bottom: 355px;
 	font-size: 28px;
-	text-decoration: underline;
+	text-decoration: none;
+    border-bottom: 1px solid #C664F8;
+}
+
+.scheduletext a{
+	color: #C664F8;
 }
 
 .festa h2{
