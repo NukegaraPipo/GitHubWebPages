@@ -167,29 +167,32 @@ header{
 .top{
     position: absolute;
 	width: 1280px;
-    top: 1412px;
+    top: 1391px;
 }
 
 .top h1{
-	font-size: 48px;
-	margin: 0 auto 0 64px;
+	font-size: 30px;
+	margin: 88px auto 72px 216px;
 	color: #06C1C1;
 }
 
 .top h2{
-	text-align: center;
-	font-size: 32px;
+	font-size: 28px;
+}
+
+.top > img{
+	margin: 28px 0 40px 0;
 }
 
 .topbutton{
 	text-align: center;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 104px auto;
 }
 
 /* tab02 */
 .festa h1{
 	color: #A74BD6;
-	margin: 54px auto 0 64px;
+	margin: 54px auto 56px 216px;
 }
 
 .scheduletext{
@@ -197,6 +200,12 @@ header{
 	margin-left: 563px;
 	bottom: 295px;
 	font-size: 21px;
+	text-decoration: none;
+    border-bottom: 1px solid #C664F8;
+}
+
+.scheduletext a{
+	color: #C664F8;
 }
 
 .festatable{
@@ -207,6 +216,7 @@ header{
 .festablock{
 	display: table;
 	width: 982px;
+	height: 469px;
 	text-align: center;
 }
 
@@ -217,11 +227,14 @@ header{
 }
 
 .festaitem h2{
-	font-size: 24px;
+	font-size: 22px;
+	margin: 0 0 28px 0;
 }
 
 .festaitem p{
 	font-size: 18px;
+	height: 68px;
+	margin: 20px 0 40px 0;
 }
 
 /* tab03 */
@@ -234,36 +247,37 @@ header{
 
 .name{
 	font-size: 20px;
-	margin: 10px 10px;
+	margin: 10px 0 20px 0;
 }
 
 .position{
 	font-size: 16px;
+	text-align: left;
 	color: #533104;
 }
 
 .iconleft{
-	padding-left: 30px;
+	padding-left: 40px;
 }
 
 .iconright{
-	padding-right: 30px;
+	padding-right: 40px;
 }
 
 .iconcenter{
-	padding: 0 40px 0 40px;
+	padding: 0 112px 0 112px;
 }
 
 /* tab03 開催者挨拶 */
 .supporter h1{
-	margin: 64px auto 24px 216px;
+	margin: 56px auto 28px 216px;
 	color:#F78D02;
 	font-size: 30px;
 }
 
 .greetingtable{
 	width: auto;
-	margin: 0 216px 0 216px;
+	margin: 0 216px 176px 216px;
 }
 
 .greetingblock{
@@ -273,6 +287,7 @@ header{
 .greetingicon{
 	display: table-cell;
 	text-align: center;
+	width: 208px;
 }
 
 .greetingtext{
@@ -287,7 +302,7 @@ header{
 /* tab03 サポーター一覧 */
 .supportertable{
 	width: auto;
-	margin: 0 auto 0 216px;
+	margin: 0 216px 0 216px;
 }
 
 .supporterblock{
@@ -298,7 +313,7 @@ header{
 .supportericon{
 	display: table-cell;
 	text-align: center;
-	width: 250px;
+	width: 208px;
 }
 
 .supportertext{
@@ -312,36 +327,52 @@ header{
 
 .supportertable2{
 	width: auto;
-	margin: 0 auto 0 216px;
-	
+	margin: 0 216px 0 216px;
 }
 
-.supporterblock{
+.supporterblock2{
 	display: table;
-	margin: 0 0 56px 0;
+	width: 848px;
+	margin: 0;
+}
+
+.supportericon2{
+	display: table-cell;
+	text-align: center;
+	width: 208px;
+}
+
+.supporterblockmargin{
+	margin-bottom: 56px;
 }
 
 /* tab04 */
 .report{
 	text-align: left;
 	width: 1280px;
+	margin-bottom: 204px;
 }
 
 .report h1{
 	font-size: 30px;
-	margin: 48px auto 0 216px;
+	margin: 56px auto 0 216px;
 	color: #27B1D9;
 }
 
 .report p{
 	font-size: 18px;
-	margin: 24px auto 24px 216px;
+	margin: 28px auto 28px 216px;
+}
+
+.report li {
+	margin-top: 28px;
 }
 
 .report a{
-	font-size: 26px;
-	margin: 48px auto 0 216px;
-	text-decoration:underline;
+	font-size: 24px;
+	margin: 28px auto 0 216px;
+	text-decoration: none;
+    border-bottom: 1px solid #27B1D9;
  	color:#27B1D9;
 }
 
@@ -353,11 +384,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 120px 0 16px 0;
+	padding: 16px 0 16px 0;
 }
 
 footer > button{
-	margin: 16px 0 0 0;
+	margin: 0;
 }
 
 footer ul{
