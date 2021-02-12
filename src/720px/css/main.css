@@ -6,6 +6,8 @@ html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
 	font: inherit;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans+JP);
+
 html{
 	touch-action: manipulation;
 	vertical-align: baseline;
@@ -48,7 +50,7 @@ body {
 	width: 720px;
 	height: auto;
 	font-size: 0px;
-	font-family: "游ゴシック","源柔ゴシック","ヒラギノ丸ゴシック","Rounded M+";
+	font-family: "Noto Sans JP";
 }
 
 /* ヘッダー */
