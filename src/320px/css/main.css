@@ -250,6 +250,7 @@ div.scrollArea {
 .report{
 	text-align: left;
 	width: 320px;
+	margin-bottom: 32px;
 }
 
 .report h1{
