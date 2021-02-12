@@ -6,7 +6,7 @@ html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
 	font: inherit;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans+JP);
+@import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap’);
 
 html{
 	touch-action: manipulation;
@@ -55,7 +55,7 @@ body {
 	width: 1280px;
 	height: auto;
 	font-size: 0px;
-	font-family: "Noto Sans JP";
+	font-family: ‘Noto Sans JP’, sans-serif;
 }
 
 /* ヘッダー */
