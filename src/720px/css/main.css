@@ -116,7 +116,8 @@ div.scrollArea {
 /* tab01 */
 .top h1{
 	font-size: 45px;
-	margin-top: 162px;
+	margin-top: 81px;
+	text-align: center;
 }
 
 .top h2{
@@ -209,6 +210,7 @@ div.scrollArea {
 .report{
 	text-align: left;
 	width: 720px;
+	margin-bottom: 80px;
 }
 
 .report h1{
@@ -222,10 +224,13 @@ div.scrollArea {
 	margin: 0 auto 8px 30px;
 }
 
-.report a{
+.report li{
 	font-size: 30px;
-	margin: 48px auto 0 30px;
-	text-decoration:underline;
+	margin: 30px auto 0 30px;
+}
+
+.report li a{
+    border-bottom: 1px solid #27B1D9;
  	color:#27B1D9;
 }
 
@@ -242,7 +247,7 @@ footer{
 
 footer ul{
 	margin: 16px 0 24px 0;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 footer ul span{
