@@ -110,6 +110,14 @@ div.scrollArea {
 }
 
 /* tab01 */
+.toptitle{
+	text-align: center;
+}
+
+.toptitle img{
+	margin: 64px 0 30px 0;
+}
+
 .topdisc{
 	font-size: 16px;
 	margin: 0 30px 0 30px;
@@ -135,6 +143,14 @@ div.scrollArea {
 }
 
 /* tab02 */
+.festatitle{
+	text-align: center;
+}
+
+.festatitle img{
+	margin: 46px 0 30px 0;
+}
+
 .festa h1{
 	font-size: 22px;
 	margin: 46px 0 30px 0;
@@ -173,6 +189,22 @@ div.scrollArea {
 }
 
 /* tab03 */
+.supportertitle1{
+	text-align: center;
+}
+
+.supportertitle1 img{
+	margin: 32px 0 30px 0;
+}
+
+.supportertitle2{
+	text-align: center;
+}
+
+.supportertitle2 img{
+	margin: 64px 0 30px 0;
+}
+
 .suporter{
 	text-align: center;
 	width: 100%;
@@ -207,6 +239,14 @@ div.scrollArea {
 }
 
 /* tab04 */
+.reporttitle{
+	text-align: center;
+}
+
+.report img{
+	margin: 32px 0 30px 0;
+}
+
 .report{
 	text-align: left;
 	width: 320px;

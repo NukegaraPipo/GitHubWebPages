@@ -27,6 +27,10 @@ a{
 	text-decoration: none;
 }
 
+img {
+  pointer-events: none;
+}
+
 a:link, a:visited {
 	color: black;
 }
@@ -183,8 +187,12 @@ header{
 	font-size: 28px;
 }
 
-.top > img{
-	margin: 28px 0 40px 0;
+.toptitle{
+	text-align: left;
+}
+
+.toptitle{
+	margin: 88px auto 72px 216px;
 }
 
 .topbutton{
@@ -193,6 +201,14 @@ header{
 }
 
 /* tab02 */
+.festatitle{
+	text-align: left;
+}
+
+.festatitle img{
+	margin: 88px auto 56px 216px;
+}
+
 .festa h1{
 	color: #A74BD6;
 	margin: 54px auto 56px 216px;
@@ -272,6 +288,14 @@ header{
 }
 
 /* tab03 開催者挨拶 */
+.greetingtitle{
+	text-align: left;
+}
+
+.greetingtitle img{
+	margin: 56px auto 28px 216px;
+}
+
 .supporter h1{
 	margin: 56px auto 28px 216px;
 	color:#F78D02;
@@ -303,6 +327,16 @@ header{
 }
 
 /* tab03 サポーター一覧 */
+.supportertitle{
+	text-align: left;
+}
+
+.supportertitle img{
+	margin: 0 auto 28px 216px;
+}
+
+
+
 .supportertable{
 	width: auto;
 	margin: 0 216px 0 216px;
@@ -354,6 +388,14 @@ header{
 	text-align: left;
 	width: 1280px;
 	margin-bottom: 204px;
+}
+
+.reporttitle{
+	text-align: left;
+}
+
+.reporttitle img{
+	margin: 56px auto 28px 216px;
 }
 
 .report h1{
