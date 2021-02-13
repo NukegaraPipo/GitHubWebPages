@@ -11,9 +11,7 @@ window.onload = function () {
     var pathName = sp[sp.length - 2];
     console.log(pathName);
 
-    var link = "";
     if (1280 <= pixelResolutionWidth) {
-        // 現在のページが1280px以外だったら
         if (pathName != "1280px") {
             var userAgent = window.navigator.userAgent.toLowerCase();
             if (userAgent.indexOf("mobile") != -1) {
