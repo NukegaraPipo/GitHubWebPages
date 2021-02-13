@@ -21,7 +21,8 @@ a{
 }
 
 img {
-  pointer-events: none;
+  	pointer-events: none;
+	vertical-align: bottom;
 }
 
 a:link, a:visited {
@@ -34,10 +35,6 @@ button{
 	opacity: 1;
 	outline:  none;
 	cursor:pointer;
-}
-
-img{
-	vertical-align: bottom;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -86,6 +83,7 @@ header{
 }
 
 .tabborder{
+	vertical-align: bottom;
 	margin-bottom: 4px;
 }
 
