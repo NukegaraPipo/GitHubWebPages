@@ -137,15 +137,15 @@ div.scrollArea {
 }
 
 /* tab02 */
-.festahistory img{
-	margin: 0 0 0 0;
+.festahistory > img{
+	margin: 62px auto 38px auto;
 }
 
-.festahistory p{
-	font-size: 15px;
+.festahistory > p{
+	font-size: 30px;
 	text-align: left;
 	word-wrap: normal;
-	margin: 0 30px 0 30px;
+	margin: 0 30px 81px 30px;
 }
 
 .festamarker{
@@ -190,7 +190,7 @@ div.scrollArea {
 	margin: 38px 0 38px 0;
 }
 
-.festa p{
+.festa > p{
 	text-align: center;
 	word-wrap: normal;
 	font-size: 30px;
@@ -198,12 +198,12 @@ div.scrollArea {
 }
 
 /* tab03 */
-.supporttitle1{
+.supporttitle{
 	text-align: center;
 }
 
-.supporttitle1 img{
-	margin: 62px 0 62px 0;
+.supporttitle img{
+	margin: 62px 0 0 0;
 }
 
 .supporttitle2{
