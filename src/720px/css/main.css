@@ -6,8 +6,6 @@ html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
 	font: inherit;
 }
 
-@import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap’);
-
 html{
 	touch-action: manipulation;
 	vertical-align: baseline;
@@ -17,11 +15,6 @@ ul{
 	list-style: none;
 	font-size: 0;
 }
-/* 
-h1{
-	font-size: 32px;
-	text-align: left;
-} */
 
 a{
 	text-decoration: none;
@@ -144,6 +137,21 @@ div.scrollArea {
 }
 
 /* tab02 */
+.festahistory img{
+	margin: 0 0 0 0;
+}
+
+.festahistory p{
+	font-size: 15px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 0 30px 0 30px;
+}
+
+.festamarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
 .scheduletext{
 	position: absolute;
 	margin-left:234px;
