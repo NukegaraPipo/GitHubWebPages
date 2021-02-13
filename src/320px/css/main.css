@@ -136,7 +136,11 @@ div.scrollArea {
 }
 
 /* tab02 */
-.festahistory{
+.festahistory img{
+	margin: 0 0 0 0;
+}
+
+.festahistory p{
 	font-size: 15px;
 	text-align: left;
 	word-wrap: normal;
