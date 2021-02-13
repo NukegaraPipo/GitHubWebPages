@@ -12,27 +12,30 @@ window.onload = function () {
     console.log(pathName);
 
     var link = "";
-    //     if (1280 <= pixelResolutionWidth) {
-    //         // 現在のページが1280px以外だったら
-    //         if (pathName != "1280px") {
-    //             var userAgent = window.navigator.userAgent.toLowerCase();
-    //             if (userAgent.indexOf("mobile") != -1) {
-    //                 link = 'src/720px/tab01.html';
-    //             }
-    //             else {
-    //                 link = 'src/1280px/tab01.html';
-    //             }
-    //         }
-    //     }
-    //     else if (720 <= pixelResolutionWidth) {
-    //         if (pathName != "720px") {
-    //             link = 'src/720px/tab01.html';
-    //         }
-    //     }
-    //     else {
-    //         if (pathName != "320px") {
-    //             link = 'src/320px/tab01.html';
-    //         }
-    //     }
-    //     location.pathname = "../";
+    if (1280 <= pixelResolutionWidth) {
+        // 現在のページが1280px以外だったら
+        if (pathName != "1280px") {
+            var userAgent = window.navigator.userAgent.toLowerCase();
+            if (userAgent.indexOf("mobile") != -1) {
+                sp[sp.length - 2] = "720px";
+            }
+            else {
+                sp[sp.length - 2] = "1280px";
+            }
+        }
+    }
+    else if (720 <= pixelResolutionWidth) {
+        if (pathName != "720px") {
+            sp[sp.length - 2] = "720px";
+        }
+    }
+    else {
+        if (pathName != "320px") {
+            sp[sp.length - 2] = "320px";
+        }
+    }
+
+    var text = sp.join('/');
+    console.log(text);
+
 };
