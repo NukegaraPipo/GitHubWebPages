@@ -6,8 +6,6 @@ html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
 	font: inherit;
 }
 
-@import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap’);
-
 html{
 	touch-action: manipulation;
 	vertical-align: baseline;
@@ -17,10 +15,6 @@ ul{
 	list-style: none;
 	font-size: 0;
 }
-/* 
-h1{
-	font-size: 24px;
-} */
 
 a{
 	text-decoration: none;
@@ -96,7 +90,6 @@ header ul li{
 	margin-top: auto;
 }
 
-/* 共通 */
 /* スクロールエリア */
 div.scrollArea {
 	background: #ffffff;
@@ -143,6 +136,17 @@ div.scrollArea {
 }
 
 /* tab02 */
+.festahistory{
+	font-size: 15px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 0 30px 0 30px;
+}
+
+.festamarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
 .festatitle{
 	text-align: center;
 }
