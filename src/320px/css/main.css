@@ -108,7 +108,7 @@ div.scrollArea {
 }
 
 .toptitle img{
-	margin: 64px 0 30px 0;
+	margin: 64px 0 0 0;
 }
 
 .topdisc{
@@ -137,14 +137,14 @@ div.scrollArea {
 
 /* tab02 */
 .festahistory img{
-	margin: 0 0 0 0;
+	margin: 30px 16px 30px 16px;
 }
 
 .festahistory p{
 	font-size: 15px;
 	text-align: left;
 	word-wrap: normal;
-	margin: 0 30px 0 30px;
+	margin: 0 30px 46px 30px;
 }
 
 .festamarker{
@@ -167,10 +167,12 @@ div.scrollArea {
 .festa h2{
 	font-size: 20px;
 	margin: 0 0 16px 0;
+	font-weight: 500;
 }
 
 .festa p{
 	font-size: 16px;
+	text-align: center;
 	margin: 16px 16px 24px 16px;
 }
 
@@ -185,9 +187,9 @@ div.scrollArea {
 
 .scheduletext{
 	position: absolute;
-	margin-left:82px;
+	margin-left: 92px;
 	bottom: 170px;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
     border-bottom: 1px solid #C664F8;
 }
@@ -197,20 +199,12 @@ div.scrollArea {
 }
 
 /* tab03 */
-.supportertitle1{
+.supportertitle{
 	text-align: center;
 }
 
-.supportertitle1 img{
+.supportertitle img{
 	margin: 32px 0 30px 0;
-}
-
-.supportertitle2{
-	text-align: center;
-}
-
-.supportertitle2 img{
-	margin: 64px 0 30px 0;
 }
 
 .suporter{
@@ -252,7 +246,7 @@ div.scrollArea {
 }
 
 .report img{
-	margin: 32px 0 30px 0;
+	margin: 32px 0 0 0;
 }
 
 .report{
@@ -291,7 +285,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 64px 0 16px 0;
+	padding: 97px 0 16px 0;
 }
 
 footer ul{
