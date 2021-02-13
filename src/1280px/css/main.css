@@ -194,6 +194,26 @@ header{
 }
 
 /* tab02 */
+.festahistory img{
+	position: absolute;
+	top: 0;
+	left: 216px;
+}
+
+.festahistory p{
+	position: absolute;
+	font-size: 18px;
+	text-align: left;
+	word-wrap: normal;
+	top: 150px;
+	left: 0;
+	margin: 0 216px 0 216px;
+}
+
+.festamarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
 .festatitle{
 	text-align: left;
 }
