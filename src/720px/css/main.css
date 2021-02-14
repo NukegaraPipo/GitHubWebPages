@@ -297,17 +297,17 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 80px 0 16px 0;
+	padding: 80px 0 24px 0;
 }
 
 footer ul{
 	margin: 16px 0 24px 0;
 	font-size: 17px;
-	color: #8B8989;
+	color: #1C1C1C;
 }
 
 footer ul > a:link, a:visited, a:hover, a:active, a:focus{
-	color: #8B8989;
+	color: #1C1C1C;
 }
 
 footer ul span{
@@ -315,7 +315,6 @@ footer ul span{
 }
 
 footer small{
-	font-size: 10px;
-	font-family: "Helvetica Neue";
+	font-size: 12px;
 	font-weight: 100;
 }
