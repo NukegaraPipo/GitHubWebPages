@@ -291,7 +291,7 @@ footer{
 
 footer ul{
 	margin: 16px 0 16px 0;
-	font-size: 13px;
+	font-size: 11px;
 	color: #1C1C1C;
 }
 
@@ -304,6 +304,6 @@ footer ul span{
 }
 
 footer small{
-	font-size: 11px;
+	font-size: 9px;
 	font-weight: 100;
 }
