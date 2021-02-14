@@ -20,6 +20,11 @@ a{
 	text-decoration: none;
 }
 
+img {
+  	pointer-events: none;
+	vertical-align: bottom;
+}
+
 a:link, a:visited, a:hover, a:active {
 	color: black;
 }
@@ -29,10 +34,6 @@ button{
 	display: inline-flex;
 	opacity: 1;
 	outline:  none;
-}
-
-img{
-	vertical-align: bottom;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -156,12 +157,11 @@ div.scrollArea {
 	position: absolute;
 	margin-left:234px;
 	bottom: 355px;
-	font-size: 28px;
-	text-decoration: none;
-    border-bottom: 1px solid #C664F8;
 }
 
 .scheduletext a{
+	font-size: 28px;
+    border-bottom: 1px solid #C664F8;
 	color: #C664F8;
 }
 
@@ -303,10 +303,6 @@ footer{
 footer ul{
 	margin: 16px 0 24px 0;
 	font-size: 17px;
-	color: #1C1C1C;
-}
-
-footer ul > a:link, a:visited, a:hover, a:active, a:focus{
 	color: #1C1C1C;
 }
 

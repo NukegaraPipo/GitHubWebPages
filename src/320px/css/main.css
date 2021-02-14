@@ -20,15 +20,20 @@ a{
 	text-decoration: none;
 }
 
+img {
+  	pointer-events: none;
+	vertical-align: bottom;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: black;
+}
+
 button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
 	opacity: 1;
 	outline:  none;
-}
-
-img{
-	vertical-align: bottom;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -191,9 +196,6 @@ div.scrollArea {
 .scheduletext a{
 	font-size: 14px;
     border-bottom: 1px solid #C664F8;
-}
-
-.scheduletext a:link, a:visited, a:hover, a:active, a:focus{
 	color: #C664F8;
 }
 
@@ -266,16 +268,12 @@ div.scrollArea {
 }
 
 .report li{
-	margin: 16px 0 0 0;
-}
-
-.report a{
 	font-size: 16px;
-	margin: 48px 16px 0 16px;
-    border-bottom: 1px solid #27B1D9;
+	margin: 16px 16px 0 16px;
 }
 
-.report a:link, a:visited, a:hover, a:active, a:focus{
+.report li a{
+    border-bottom: 1px solid #27B1D9;
  	color:#27B1D9;
 }
 
@@ -293,10 +291,6 @@ footer{
 footer ul{
 	margin: 16px 0 16px 0;
 	font-size: 11px;
-	color: #1C1C1C;
-}
-
-footer ul > a:link, a:visited, a:hover, a:active, a:focus{
 	color: #1C1C1C;
 }
 

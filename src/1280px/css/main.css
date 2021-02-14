@@ -25,7 +25,7 @@ img {
 	vertical-align: bottom;
 }
 
-a:link, a:visited {
+a:link, a:visited, a:hover, a:active {
 	color: black;
 }
 
@@ -35,7 +35,6 @@ button{
 	opacity: 1;
 	outline: none;
 	cursor: pointer;
-	vertical-align: middle;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -294,13 +293,12 @@ header{
 	position: absolute;
 	margin-left: 563px;
 	bottom: 295px;
-	font-size: 21px;
-	text-decoration: none;
-    border-bottom: 1px solid #C664F8;
 }
 
 .scheduletext a{
+	font-size: 21px;
 	color: #C664F8;
+    border-bottom: 1px solid #C664F8;
 }
 
 .festatable{
@@ -484,13 +482,11 @@ header{
 }
 
 .report li {
-	margin-top: 28px;
-}
-
-.report a{
 	font-size: 24px;
 	margin: 28px auto 0 216px;
-	text-decoration: none;
+}
+
+.report li a{
     border-bottom: 1px solid #27B1D9;
  	color:#27B1D9;
 }
@@ -513,10 +509,6 @@ footer > button{
 footer ul{
 	margin: 16px 0 16px 0;
 	font-size: 13px;
-	color: #1C1C1C;
-}
-
-footer ul > a:link, a:visited, a:hover, a:active, a:focus{
 	color: #1C1C1C;
 }
 
