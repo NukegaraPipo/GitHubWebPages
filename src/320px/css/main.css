@@ -290,8 +290,12 @@ footer{
 }
 
 footer ul{
-	margin: 16px 0 24px 0;
-	font-size: 12px;
+	margin: 16px 0 16px 0;
+	font-size: 10px;
+	color: #8B8989;
+}
+
+footer ul > a:link, a:visited, a:hover, a:active, a:focus{
 	color: #8B8989;
 }
 
