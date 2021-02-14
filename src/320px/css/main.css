@@ -124,7 +124,7 @@ div.scrollArea {
 
 .top h2{
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 600;
 	margin: 30px 0 0 0;
 }
 
@@ -195,7 +195,7 @@ div.scrollArea {
     border-bottom: 1px solid #C664F8;
 }
 
-.scheduletext a{
+.scheduletext > a:link, a:visited, a:hover, a:active{
 	color: #C664F8;
 }
 
