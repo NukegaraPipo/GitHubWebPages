@@ -33,8 +33,9 @@ button{
 	background: rgba(0,0,0,0);
 	display: inline-flex;
 	opacity: 1;
-	outline:  none;
-	cursor:pointer;
+	outline: none;
+	cursor: pointer;
+	vertical-align: middle;
 }
 
 /* ヘッダーのハイライト #BCE6F2 */
@@ -166,16 +167,9 @@ header{
 }
 
 /* tab01 */
-.top{
-    position: absolute;
-	width: 1280px;
-    top: 1391px;
-}
-
-.top h1{
-	font-size: 30px;
-	margin: 88px auto 72px 216px;
-	color: #06C1C1;
+.topback{
+	position: relative;
+	height: auto;
 }
 
 .top h2{
@@ -183,16 +177,78 @@ header{
 }
 
 .toptitle{
-	text-align: left;
+    position: absolute;
+	top: 88px;
+	left: 216px;
 }
 
-.toptitle{
-	margin: 88px auto 72px 216px;
+.topacademic{
+    position: absolute;
+	top: 208px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
 }
 
-.topbutton{
-	text-align: center;
-	margin: 0 auto 104px auto;
+.topacademicimg{
+	position: absolute;
+	top: 264px;
+	left: 216px;
+}
+
+.topacademicbutton{
+	position: absolute;
+	top: 795px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
+	font-size: 0;
+}
+
+.topsocial{
+	position: absolute;
+	top: 963px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
+}
+
+.topsocialimg{
+	position: absolute;
+	top: 1033px;
+	left: 216px;
+}
+
+.topsocialbutton{
+	position: absolute;
+	top: 1550px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
+	font-size: 0;
+}
+
+.topmaker{
+	position: absolute;
+	top: 1718px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
+}
+
+.topmakerimg{
+	position: absolute;
+	top: 1788px;
+	left: 216px;
+}
+
+.topmakerbutton{
+	position: absolute;
+	top: 2305px;
+	left: 0;
+	right: 0;
+	margin: auto 0 auto 0;
+	font-size: 0;
 }
 
 /* tab02 */
@@ -457,10 +513,20 @@ footer > button{
 }
 
 footer ul{
-	margin: 16px 0 24px 0;
-	font-size: 15px;
+	margin: 16px 0 16px 0;
+	font-size: 16px;
+	color: #1C1C1C;
+}
+
+footer ul > a:link, a:visited, a:hover, a:active, a:focus{
+	color: #1C1C1C;
 }
 
 footer ul span{
 	margin: 0 10px 0 10px;
+}
+
+footer small{
+	font-size: 13px;
+	font-weight: 100;
 }
