@@ -303,8 +303,19 @@ footer{
 footer ul{
 	margin: 16px 0 24px 0;
 	font-size: 17px;
+	color: #8B8989;
+}
+
+footer ul > a:link, a:visited, a:hover, a:active, a:focus{
+	color: #8B8989;
 }
 
 footer ul span{
 	margin: 0 6px 0 6px;
+}
+
+footer small{
+	font-size: 10px;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
 }
