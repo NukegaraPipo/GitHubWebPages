@@ -142,10 +142,10 @@ div.scrollArea {
 }
 
 .festahistory p{
-	font-size: 15px;
+	font-size: 16px;
 	text-align: left;
 	word-wrap: normal;
-	margin: 0 30px 46px 30px;
+	margin: 0 16px 46px 16px;
 }
 
 .festamarker{
@@ -208,13 +208,13 @@ div.scrollArea {
 	margin: 32px 0 30px 0;
 }
 
-.suporter{
+.supporter{
 	text-align: center;
 	width: 100%;
 	top: 0;
 }
 
-.suporter h1{
+.supporter h1{
 	margin: 32px 0 30px 0;
 }
 
@@ -230,8 +230,8 @@ div.scrollArea {
 	margin: 0 16px 0 16px;
 }
 
-.supotertext{
-	font-size: 18px;
+.suppotertext{
+	font-size: 16px;
 	text-align: left;
 	word-wrap: normal;
 	margin: 16px 16px 64px 16px;
@@ -296,4 +296,10 @@ footer ul{
 
 footer ul span{
 	margin: 0 7px 0 7px;
+}
+
+footer small{
+	font-size: 10px;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
 }
