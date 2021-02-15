@@ -321,10 +321,42 @@ header{
 }
 
 /* tab03 */
-.supporter{
+.supportertitle{
 	text-align: left;
-	width: 1280px;
-	top: 0;
+}
+
+.supportertitle img{
+	margin: 56px auto 28px 216px;
+}
+
+.supporterrightback{
+	background: url("../images/03_supporter/pc_supporter_rightbackground.png") center no-repeat;
+	float: right;
+}
+
+.supporterleftback{
+	background: url("../images/03_supporter/pc_supporter_leftbackground.png") center no-repeat;
+	float: left;
+}
+
+.supporterblock{
+	display: table;
+	height: 340px;
+	margin: 0 216px 72px 216px;
+}
+
+.supportericon{
+	display: table-cell;
+	text-align: center;
+	width: 208px;
+}
+
+.iconright{
+	padding-right: 40px;
+}
+
+.iconleft{
+	padding-left: 40px;
 }
 
 .name{
@@ -338,85 +370,13 @@ header{
 	color: #533104;
 }
 
-.iconleft{
-	padding-left: 40px;
-}
-
-.iconright{
-	padding-right: 40px;
-}
-
-.iconcenter{
-	padding: 0 112px 0 112px;
-}
-
-.supporterback{
-	background-image: url("../images/03_supporter/pc_supporter_rebackground.png");
-	background-repeat: repeat-y;
-	overflow-y: hidden;
-}
-
-.supportertitle{
-	text-align: left;
-}
-
-.supportertitle img{
-	margin: 56px auto 28px 216px;
-}
-
-.supportertable{
-	width: auto;
-	margin: 0 216px 0 216px;
-}
-
-.supporterblock{
-	display: table;
-	margin: 0 0 72px 0;
-}
-
-.supportericon{
-	display: table-cell;
-	text-align: center;
-	width: 208px;
-}
-
 .supportertext{
 	display: table-cell;
 	width: 600px;
 	font-size: 18px;
 	text-align: left;
-	vertical-align:top;
+	vertical-align:middle;
 	word-wrap: normal;
-}
-
-.supportertable2{
-	width: auto;
-	margin: 0 216px 104px 216px;
-}
-
-.supporterblock2{
-	display: table;
-	width: 848px;
-	margin: 0;
-}
-
-.supportericon2{
-	display: table-cell;
-	text-align: center;
-	width: 208px;
-}
-
-.supportericon2 > .position{
-	height: 150px;
-}
-
-.supporterblockmargin{
-	margin-bottom: 56px;
-}
-
-.supportertext2{
-	font-size: 18px;
-	margin-top: 10px;
 }
 
 /* tab04 */
