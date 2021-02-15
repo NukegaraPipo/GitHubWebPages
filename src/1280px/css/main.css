@@ -276,19 +276,6 @@ header{
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
 }
 
-.festatitle{
-	text-align: left;
-}
-
-.festatitle img{
-	margin: 88px auto 56px 216px;
-}
-
-.festa h1{
-	color: #A74BD6;
-	margin: 54px auto 56px 216px;
-}
-
 .scheduletext{
 	position: absolute;
 	margin-left: 563px;
@@ -299,6 +286,14 @@ header{
 	font-size: 21px;
 	color: #C664F8;
     border-bottom: 1px solid #C664F8;
+}
+
+.festatitle{
+	text-align: left;
+}
+
+.festatitle img{
+	margin: 88px auto 56px 216px;
 }
 
 .festatable{
@@ -361,52 +356,13 @@ header{
 	padding: 0 112px 0 112px;
 }
 
-/* tab03 開催者挨拶 */
-.greetingtitle{
-	text-align: left;
-}
-
-.greetingtitle img{
-	margin: 56px auto 28px 216px;
-}
-
-.supporter h1{
-	margin: 56px auto 28px 216px;
-	color:#F78D02;
-	font-size: 30px;
-}
-
-.greetingtable{
-	width: auto;
-	margin: 0 216px 176px 216px;
-}
-
-.greetingblock{
-	display: table;
-}
-
-.greetingicon{
-	display: table-cell;
-	text-align: center;
-	width: 208px;
-}
-
-.greetingtext{
-	display: table-cell;
-	width: 600px;
-	font-size: 18px;
-	text-align: left;
-	vertical-align: top;
-	word-wrap: normal;
-}
-
-/* tab03 サポーター一覧 */
+/* tab03 */
 .supportertitle{
 	text-align: left;
 }
 
 .supportertitle img{
-	margin: 0 auto 28px 216px;
+	margin: 56px auto 28px 216px;
 }
 
 .supportertable{
@@ -451,8 +407,17 @@ header{
 	width: 208px;
 }
 
+.supportericon2 > .position{
+	height: 150px;
+}
+
 .supporterblockmargin{
 	margin-bottom: 56px;
+}
+
+.supportertext2{
+	font-size: 18px;
+	margin-top: 10px;
 }
 
 /* tab04 */
