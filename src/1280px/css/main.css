@@ -160,11 +160,6 @@ header{
 	z-index: 5;
 }
 
-.back{
-	position: relative;
-	height: 100%;
-}
-
 /* tab01 */
 .topback{
 	position: relative;
@@ -327,7 +322,6 @@ header{
 
 /* tab03 */
 .supporter{
-	position: absolute;
 	text-align: left;
 	width: 1280px;
 	top: 0;
@@ -356,7 +350,12 @@ header{
 	padding: 0 112px 0 112px;
 }
 
-/* tab03 */
+.supporterback{
+	background-image: url("../images/03_supporter/pc_supporter_rebackground.png");
+	background-repeat: repeat-y;
+	overflow-y: hidden;
+}
+
 .supportertitle{
 	text-align: left;
 }
@@ -392,7 +391,7 @@ header{
 
 .supportertable2{
 	width: auto;
-	margin: 0 216px 0 216px;
+	margin: 0 216px 104px 216px;
 }
 
 .supporterblock2{
