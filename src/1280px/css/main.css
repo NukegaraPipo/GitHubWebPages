@@ -162,105 +162,47 @@ header{
 
 /* tab01 */
 .topback{
-	position: relative;
-	height: auto;
-}
-
-.top h2{
-	font-size: 28px;
+	background-image: url("../images/01_top/pc_top_background.png");
+	background-repeat: no-repeat;
+	text-align: left;
 }
 
 .toptitle{
-    position: absolute;
-	top: 88px;
-	left: 216px;
+	margin: 88px auto 72px 216px;
 }
 
-.topacademic{
-    position: absolute;
-	top: 208px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
+.entoryword{
+	text-align: center;
 }
 
-.topacademicimg{
-	position: absolute;
-	top: 264px;
-	left: 216px;
+.entoryword h2{
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
 }
 
-.topacademicbutton{
-	position: absolute;
-	top: 795px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
-	font-size: 0;
+.entoryword > img{
+	margin: 28px 0 40px 0;
 }
 
-.topsocial{
-	position: absolute;
-	top: 963px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
-}
-
-.topsocialimg{
-	position: absolute;
-	top: 1033px;
-	left: 216px;
-}
-
-.topsocialbutton{
-	position: absolute;
-	top: 1550px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
-	font-size: 0;
-}
-
-.topmaker{
-	position: absolute;
-	top: 1718px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
-}
-
-.topmakerimg{
-	position: absolute;
-	top: 1788px;
-	left: 216px;
-}
-
-.topmakerbutton{
-	position: absolute;
-	top: 2305px;
-	left: 0;
-	right: 0;
-	margin: auto 0 auto 0;
-	font-size: 0;
+.entoryword button{
+	margin: 0 0 104px 0;
 }
 
 /* tab02 */
-.festaback{
-	position: relative;
-	height: auto;
-}
-
-.festahistory img{
-	position: absolute;
-	top: 0;
-	left: 216px;
-}
-
-.festahistory p{
-	position: absolute;
-	font-size: 18px;
+.festahistoryback{
+	background-image: url("../images/02_festa/pc_festa_history_background.png");
+	background-repeat: no-repeat;
 	text-align: left;
+	margin-bottom: 88px;
+}
+
+.festahistoryback img{
+	margin: 0 auto 56px 216px;
+}
+
+.festahistoryback p{
+	font-size: 18px;
 	word-wrap: normal;
 	top: 127px;
 	left: 0;
@@ -269,6 +211,11 @@ header{
 
 .festamarker{
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
+.festaback{
+	position: relative;
+	height: auto;
 }
 
 .scheduletext{
@@ -330,19 +277,21 @@ header{
 }
 
 .supporterrightback{
-	background: url("../images/03_supporter/pc_supporter_rightbackground.png") center no-repeat;
-	float: right;
+	background-image: url("../images/03_supporter/pc_supporter_rightbackground.png");
+	background-repeat: no-repeat;
+	background-origin: content-box;
 }
 
 .supporterleftback{
-	background: url("../images/03_supporter/pc_supporter_leftbackground.png") center no-repeat;
-	float: left;
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png") ;
+	background-repeat: no-repeat;
+	background-origin: content-box;
 }
 
 .supporterblock{
 	display: table;
 	height: 340px;
-	margin: 0 216px 72px 216px;
+	padding: 0 216px 72px 216px;
 }
 
 .supportericon{
