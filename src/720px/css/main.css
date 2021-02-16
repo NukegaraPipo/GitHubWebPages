@@ -36,7 +36,6 @@ button{
 	outline:  none;
 }
 
-/* ヘッダーのハイライト #BCE6F2 */
 body {
 	background: #ffffff;
 	text-align: center;
@@ -91,7 +90,6 @@ header ul li{
 	margin-top: auto;
 }
 
-/* 共通 */
 /* スクロールエリア */
 div.scrollArea {
 	background: #ffffff;
@@ -102,11 +100,6 @@ div.scrollArea {
 	overflow-y: hidden;
 	overflow-x: hidden;
 	z-index: 5;
-}
-
-.back{
-	position: relative;
-	height: 100%;
 }
 
 /* tab01 */
@@ -147,6 +140,11 @@ div.scrollArea {
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
 }
 
+.festaback{
+	position: relative;
+	height: 100%;
+}
+
 .scheduletext{
 	position: absolute;
 	margin-left:234px;
@@ -165,11 +163,6 @@ div.scrollArea {
 
 .festatitle img{
 	margin: 81px 0 62px 0;
-}
-
-.festa h2{
-	font-size: 45px;
-	margin: 62px 0 62px 0;
 }
 
 .festa h3{
@@ -200,34 +193,14 @@ div.scrollArea {
 	margin: 62px 0 0 0;
 }
 
-.supporttitle2{
-	text-align: center;
-}
-
-.supporttitle2 img{
-	margin: 0 0 62px 0;
-}
-
-.suporter{
+.supporter{
 	text-align: center;
 	width: 100%;
 	top: 0;
 }
 
-.suporter img{
+.supporter img{
 	margin-top:62px;
-}
-
-.organizer{
-	margin: 62px 0 0 0;
-	font-size: 45px;
-	text-align: center;
-}
-
-.suporterlist{
-	margin: 162px 0 0 0;
-	font-size: 45px;
-	color:black;
 }
 
 .name{
@@ -240,7 +213,7 @@ div.scrollArea {
 	color: #533104;
 }
 
-.supotertext{
+.suppotertext{
 	font-size: 30px;
 	text-align: left;
 	word-wrap: normal;
@@ -259,12 +232,6 @@ div.scrollArea {
 }
 
 .reporttitle img{
-	margin: 62px 0 62px 0;
-}
-
-.report h1{
-	text-align: center;
-	font-size: 45px;
 	margin: 62px 0 62px 0;
 }
 

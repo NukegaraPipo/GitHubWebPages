@@ -36,7 +36,6 @@ button{
 	outline:  none;
 }
 
-/* ヘッダーのハイライト #BCE6F2 */
 body {
 	background: #ffffff;
 	text-align: center;
@@ -112,17 +111,6 @@ div.scrollArea {
 	margin: 64px 0 0 0;
 }
 
-.topdisc{
-	font-size: 16px;
-	margin: 0 30px 0 30px;
-}
-
-.top h1{
-	font-size: 22px;
-	margin-top: 64px;
-	word-wrap: normal;
-}
-
 .top h2{
 	font-size: 18px;
 	font-weight: 600;
@@ -153,16 +141,28 @@ div.scrollArea {
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
 }
 
+.festaback{
+	position: relative;
+	height: 100%;
+}
+
+.scheduletext{
+	position: absolute;
+	margin-left: 92px;
+	bottom: 170px;
+}
+
+.scheduletext a{
+	font-size: 14px;
+    border-bottom: 1px solid #C664F8;
+	color: #C664F8;
+}
+
 .festatitle{
 	text-align: center;
 }
 
 .festatitle img{
-	margin: 46px 0 30px 0;
-}
-
-.festa h1{
-	font-size: 22px;
 	margin: 46px 0 30px 0;
 }
 
@@ -182,30 +182,14 @@ div.scrollArea {
 	margin-bottom: 64px;
 }
 
-.back{
-	position: relative;
-	height: 100%;
-}
-
-.scheduletext{
-	position: absolute;
-	margin-left: 92px;
-	bottom: 170px;
-}
-
-.scheduletext a{
-	font-size: 14px;
-    border-bottom: 1px solid #C664F8;
-	color: #C664F8;
-}
 
 /* tab03 */
 .supportertitle{
 	text-align: center;
 }
 
-.supportertitle img{
-	margin: 32px 0 30px 0;
+.supportertitle > img{
+	margin: 32px 0 0 0;
 }
 
 .supporter{
@@ -214,8 +198,8 @@ div.scrollArea {
 	top: 0;
 }
 
-.supporter h1{
-	margin: 32px 0 30px 0;
+.supporter > img{
+	margin-top: 30px;
 }
 
 .name{
@@ -226,7 +210,7 @@ div.scrollArea {
 .position{
 	font-size: 16px;
 	color: #533104;
-	text-align: left;
+	text-align: center;
 	margin: 0 16px 0 16px;
 }
 
@@ -234,11 +218,7 @@ div.scrollArea {
 	font-size: 16px;
 	text-align: left;
 	word-wrap: normal;
-	margin: 16px 16px 64px 16px;
-}
-
-.suppoter2 > .position{
-	margin: 0 16px 64px 16px;
+	margin: 16px 16px 0 16px;
 }
 
 /* tab04 */
@@ -254,12 +234,6 @@ div.scrollArea {
 	text-align: left;
 	width: 320px;
 	margin-bottom: 32px;
-}
-
-.report h1{
-	text-align: center;
-	font-size: 22px;
-	margin: 32px 0 0 0;
 }
 
 .report p{

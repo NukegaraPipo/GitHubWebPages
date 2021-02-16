@@ -37,7 +37,6 @@ button{
 	cursor: pointer;
 }
 
-/* ヘッダーのハイライト #BCE6F2 */
 body {
 	background: #ffffff;
 	text-align: center;
@@ -147,7 +146,6 @@ header{
     background-image: url("../images/00_header/pc_tab_report_02.png") ;
 }
 
-/* 共通 */
 /* スクロールエリア */
 .scrollArea {
 	background: #ffffff;
@@ -342,12 +340,6 @@ header{
 
 .reporttitle img{
 	margin: 56px auto 28px 216px;
-}
-
-.report h1{
-	font-size: 30px;
-	margin: 56px auto 0 216px;
-	color: #27B1D9;
 }
 
 .report p{
