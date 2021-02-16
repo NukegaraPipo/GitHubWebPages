@@ -290,13 +290,14 @@ header{
 
 .supporterblock{
 	display: table;
-	height: 340px;
+	height: 430px;
 	padding: 0 216px 72px 216px;
 }
 
 .supportericon{
 	display: table-cell;
 	text-align: center;
+	vertical-align:middle;
 	width: 208px;
 }
 
