@@ -279,16 +279,21 @@ header{
 	margin: 104px auto 0 216px;
 }
 
-.supporterrightback{
-	background-image: url("../images/03_supporter/pc_supporter_rightbackground.png");
+.supporterbackground{
 	background-repeat: no-repeat;
 	background-origin: content-box;
 }
 
-.supporterleftback{
-	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png") ;
-	background-repeat: no-repeat;
-	background-origin: content-box;
+.organizer .supporterblock:nth-child(1){
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
+}
+
+.supporterlist .supporterbackground:nth-child(2n+1){
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
+}
+
+.supporterlist .supporterbackground:nth-child(2n){
+	background-image: url("../images/03_supporter/pc_supporter_rightbackground.png") ;
 }
 
 .supporterblock{
