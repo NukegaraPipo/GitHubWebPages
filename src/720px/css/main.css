@@ -185,12 +185,17 @@ div.scrollArea {
 }
 
 /* tab03 */
-.supporttitle{
+.supporterheadline{
 	text-align: center;
+	font-size: 0;
 }
 
-.supporttitle img{
-	margin: 62px 0 0 0;
+.supporterheadline .supporterheadline1{
+	margin: 48px 0 0 0;
+}
+
+.supporterheadline .supporterheadline2{
+	margin: 144px 0 0 0;
 }
 
 .supporter{
@@ -200,7 +205,7 @@ div.scrollArea {
 }
 
 .supporter img{
-	margin-top:62px;
+	margin-top: 62px;
 }
 
 .name{

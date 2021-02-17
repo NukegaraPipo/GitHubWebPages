@@ -266,12 +266,17 @@ header{
 }
 
 /* tab03 */
-.supportertitle{
+.supporterheadline{
 	text-align: left;
+	font-size: 0;
 }
 
-.supportertitle img{
-	margin: 56px auto 28px 216px;
+.supporterheadline .supporterheadline1{
+	margin: 56px auto 0 216px;
+}
+
+.supporterheadline .supporterheadline2{
+	margin: 104px auto 0 216px;
 }
 
 .supporterrightback{
@@ -289,7 +294,7 @@ header{
 .supporterblock{
 	display: table;
 	height: 430px;
-	padding: 0 216px 72px 216px;
+	padding: 0 216px 0 216px;
 }
 
 .supportericon{
