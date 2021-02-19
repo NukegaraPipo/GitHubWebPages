@@ -10,11 +10,6 @@
     <script>
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
         var link = location.origin;
-        // GitHubPagesで確認をするときにoriginだとGitHubPagesを取得しないので、
-        // テストをする祭はGitHubPagesを追加して確認をします。
-        // 本番反映時は下記のlinkを削除してください。
-        var link = location.origin + "/GitHubWebPages"
-        console.log(link);
 
         if (1280 <= pixelResolutionWidth) {
             var userAgent = window.navigator.userAgent.toLowerCase();
