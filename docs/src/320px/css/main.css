@@ -1,0 +1,283 @@
+/* CSS Reset */
+html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+html{
+	touch-action: manipulation;
+	vertical-align: baseline;
+}
+
+ul{
+	list-style: none;
+	font-size: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+img {
+  	pointer-events: none;
+	vertical-align: bottom;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: black;
+}
+
+button{
+	background: rgba(0,0,0,0);
+	display: inline-flex;
+	opacity: 1;
+	outline:  none;
+}
+
+body {
+	background: #ffffff;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 320px;
+	height: auto;
+	font-size: 0px;
+	font-family: ‘Noto Sans JP’, sans-serif;
+}
+
+/* ヘッダー */
+header{
+	background: #ffffff;
+	position: fixed;	/* 位置固定 */
+	top: 0;				/* top固定 */ 
+	width: auto;
+	height: auto;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 0px;
+	z-index: 10;
+}
+
+header ul li{
+	padding-inline-start: 0px;
+	display: inline-block;
+	font-size: 0px;
+}
+
+.head{
+	display: flex;
+	font-size: 0px;
+}
+
+.head button{
+	float: left;
+	margin: 12px 0 14px 16px;
+}
+
+.head > img{
+	margin: 16px 8px 15px auto;
+}
+
+.tab{
+	padding-inline-start: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0px;
+}
+
+.tab li{
+	margin-top: auto;
+}
+
+/* スクロールエリア */
+div.scrollArea {
+	background: #ffffff;
+    width: auto;
+    height: auto;
+	margin: 92px 0 0 0;
+	padding: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	z-index: 5;
+}
+
+/* tab01 */
+.toptitle{
+	text-align: center;
+}
+
+.toptitle img{
+	margin: 64px 0 0 0;
+}
+
+.top h2{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 30px 0 0 0;
+}
+
+.top > img{
+	margin: 30px 0 16px 0;
+}
+
+.topmargin{
+	margin: 0 0 64px 0;
+}
+
+/* tab02 */
+.festahistory img{
+	margin: 30px 16px 30px 16px;
+}
+
+.festahistory p{
+	font-size: 16px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 0 16px 46px 16px;
+}
+
+.festamarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
+.festaback{
+	position: relative;
+	height: 100%;
+}
+
+.scheduletext{
+	position: absolute;
+	margin-left: 92px;
+	bottom: 170px;
+}
+
+.scheduletext a{
+	font-size: 14px;
+    border-bottom: 1px solid #C664F8;
+	color: #C664F8;
+}
+
+.festatitle{
+	text-align: center;
+}
+
+.festatitle img{
+	margin: 46px 0 30px 0;
+}
+
+.festa h2{
+	font-size: 20px;
+	margin: 0 0 16px 0;
+	font-weight: 500;
+}
+
+.festa p{
+	font-size: 16px;
+	text-align: center;
+	margin: 16px 16px 24px 16px;
+}
+
+.festamargin{
+	margin-bottom: 64px;
+}
+
+
+/* tab03 */
+.supporterheadline{
+	text-align: center;
+	font-size: 0;
+}
+
+.supporterheadline .supporterheadline1{
+	margin: 32px 0 0 0;
+}
+
+.supporterheadline .supporterheadline2{
+	margin: 64px 0 0 0;
+}
+
+.supporter{
+	text-align: center;
+	width: 100%;
+	top: 0;
+}
+
+.supporter > img{
+	margin-top: 30px;
+}
+
+.name{
+	font-size: 20px;
+	margin: 8px 0 16px 0;
+}
+
+.position{
+	font-size: 16px;
+	color: #533104;
+	text-align: center;
+	margin: 0 16px 0 16px;
+}
+
+.suppotertext{
+	font-size: 16px;
+	text-align: left;
+	word-wrap: normal;
+	margin: 16px 16px 0 16px;
+}
+
+/* tab04 */
+.reporttitle{
+	text-align: center;
+}
+
+.report img{
+	margin: 32px 0 0 0;
+}
+
+.report{
+	text-align: left;
+	width: 320px;
+	margin-bottom: 32px;
+}
+
+.report p{
+	font-size: 16px;
+	margin: 30px 16px 30px 16px;
+}
+
+.report li{
+	font-size: 16px;
+	margin: 16px 16px 0 16px;
+}
+
+.report li a{
+    border-bottom: 1px solid #27B1D9;
+ 	color:#27B1D9;
+}
+
+/* フッター */
+footer{
+	background: #ffffff;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 97px 0 16px 0;
+}
+
+footer ul{
+	margin: 16px 0 16px 0;
+	font-size: 11px;
+	color: #1C1C1C;
+}
+
+footer ul span{
+	margin: 0 7px 0 7px;
+}
+
+footer small{
+	font-size: 9px;
+	font-weight: 100;
+}

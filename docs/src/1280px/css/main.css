@@ -1,0 +1,398 @@
+/* CSS Reset */
+html, body, img, button, div, span, h1, p, a, ul, li, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+html{
+	touch-action: manipulation;
+	vertical-align: baseline;
+}
+
+ul{
+	list-style: none;
+	font-size: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+img {
+  	pointer-events: none;
+	vertical-align: bottom;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: black;
+}
+
+button{
+	background: rgba(0,0,0,0);
+	display: inline-flex;
+	opacity: 1;
+	outline: none;
+	cursor: pointer;
+}
+
+body {
+	background: #ffffff;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 1280px;
+	height: auto;
+	font-size: 0px;
+	font-family: ‘Noto Sans JP’, sans-serif;
+}
+
+/* ヘッダー */
+header{
+	background: #ffffff;
+	position: fixed;	/* 位置固定 */
+	top: 0;				/* top固定 */ 
+	width: auto;
+	height: auto;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 0px;
+	z-index: 10;
+}
+
+.head{
+	display: flex;
+	font-size: 0px;
+}
+
+.head button{
+	float: left;
+	margin: 20px 0 20px 24px;
+}
+
+.head > img{
+	margin: 11px 20px 0 auto;
+}
+
+.tab > li{
+	padding-inline-start: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0px;
+}
+
+.tabborder{
+	vertical-align: bottom;
+	margin-bottom: 4px;
+}
+
+.tab01 {
+    background: url("../images/00_header/pc_tab_top_01.png") no-repeat;
+}
+ 
+.tab01 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_top_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab01 a:hover {
+    background-image: url("../images/00_header/pc_tab_top_02.png") ;
+}
+
+.tab02 {
+    background: url("../images/00_header/pc_tab_festa_01.png") no-repeat;
+}
+ 
+.tab02 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_festa_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab02 a:hover {
+    background-image: url("../images/00_header/pc_tab_festa_02.png") ;
+}
+
+.tab03 {
+    background: url("../images/00_header/pc_tab_supporter_01.png") no-repeat;
+}
+ 
+.tab03 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_supporter_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab03 a:hover {
+    background-image: url("../images/00_header/pc_tab_supporter_02.png") ;
+}
+
+.tab04 {
+    background: url("../images/00_header/pc_tab_report_01.png") no-repeat;
+}
+ 
+.tab04 a {
+    width: 318px;
+    height: 32px;
+    background: url("../images/00_header/pc_tab_report_01.png")  no-repeat;
+    display: block;
+}
+ 
+.tab04 a:hover {
+    background-image: url("../images/00_header/pc_tab_report_02.png") ;
+}
+
+/* スクロールエリア */
+.scrollArea {
+	background: #ffffff;
+    width: auto;
+    height: auto;
+	font-size: 64px;
+	margin: 98px 0 0 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	z-index: 5;
+}
+
+/* tab01 */
+.topback{
+	background-image: url("../images/01_top/pc_top_background.png");
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.toptitle{
+	margin: 88px auto 72px 216px;
+}
+
+.entoryword{
+	text-align: center;
+}
+
+.entoryword h2{
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+}
+
+.entoryword > img{
+	margin: 28px 0 40px 0;
+}
+
+.entoryword button{
+	margin: 0 0 104px 0;
+}
+
+/* tab02 */
+.festahistoryback{
+	background-image: url("../images/02_festa/pc_festa_history_background.png");
+	background-repeat: no-repeat;
+	text-align: left;
+	margin-bottom: 88px;
+}
+
+.festahistoryback img{
+	margin: 0 auto 56px 216px;
+}
+
+.festahistoryback p{
+	font-size: 18px;
+	word-wrap: normal;
+	top: 127px;
+	left: 0;
+	margin: 0 216px 0 216px;
+}
+
+.festamarker{
+	background: linear-gradient(transparent 50%, #E7C2FA 0%);
+}
+
+.festaback{
+	position: relative;
+	height: auto;
+}
+
+.scheduletext{
+	position: absolute;
+	margin-left: 563px;
+	bottom: 295px;
+}
+
+.scheduletext a{
+	font-size: 21px;
+	color: #C664F8;
+    border-bottom: 1px solid #C664F8;
+}
+
+.festatitle{
+	text-align: left;
+}
+
+.festatitle img{
+	margin: 88px auto 56px 216px;
+}
+
+.festatable{
+	width: auto;
+	margin: 0 146px 0 146px;
+}
+
+.festablock{
+	display: table;
+	width: 982px;
+	height: 469px;
+	text-align: center;
+}
+
+.festaitem{
+	display: table-cell;
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
+
+.festaitem h2{
+	font-size: 22px;
+	margin: 0 0 28px 0;
+}
+
+.festaitem p{
+	font-size: 18px;
+	height: 68px;
+	margin: 20px 0 40px 0;
+}
+
+/* tab03 */
+.supporterheadline{
+	text-align: left;
+	font-size: 0;
+}
+
+.supporterheadline .supporterheadline1{
+	margin: 56px auto 0 216px;
+}
+
+.supporterheadline .supporterheadline2{
+	margin: 104px auto 0 216px;
+}
+
+.supporterbackground{
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+.organizer .supporterblock:nth-child(1){
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
+}
+
+.supporterlist .supporterbackground:nth-child(2n+1){
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
+}
+
+.supporterlist .supporterbackground:nth-child(2n){
+	background-image: url("../images/03_supporter/pc_supporter_rightbackground.png") ;
+}
+
+.supporterblock{
+	display: table;
+	height: 360px;
+	padding: 0 216px 0 216px;
+}
+
+.supportericon{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	width: 208px;
+}
+
+.iconright{
+	padding-right: 40px;
+}
+
+.iconleft{
+	padding-left: 40px;
+}
+
+.name{
+	font-size: 20px;
+	margin: 10px 0 20px 0;
+}
+
+.position{
+	font-size: 16px;
+	text-align: left;
+	color: #533104;
+}
+
+.supportertext{
+	display: table-cell;
+	width: 600px;
+	font-size: 18px;
+	text-align: left;
+	vertical-align:middle;
+	word-wrap: normal;
+}
+
+/* tab04 */
+.report{
+	text-align: left;
+	width: 1280px;
+	margin-bottom: 204px;
+}
+
+.reporttitle{
+	text-align: left;
+}
+
+.reporttitle img{
+	margin: 56px auto 28px 216px;
+}
+
+.report p{
+	font-size: 18px;
+	margin: 28px auto 28px 216px;
+}
+
+.report li {
+	font-size: 24px;
+	margin: 28px 216px 0 216px;
+}
+
+.report li a{
+    border-bottom: 1px solid #27B1D9;
+ 	color:#27B1D9;
+}
+
+/* フッター */
+footer {
+	background: #ffffff;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 16px 0 16px 0;
+}
+
+footer > button{
+	margin: 0;
+}
+
+footer ul{
+	margin: 16px 0 16px 0;
+	font-size: 13px;
+	color: #1C1C1C;
+}
+
+footer ul span{
+	margin: 0 10px 0 10px;
+}
+
+footer small{
+	font-size: 11px;
+	font-weight: 100;
+}
