@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (pathName != "pc") {
             var userAgent = window.navigator.userAgent.toLowerCase();
             if (userAgent.indexOf("mobile") != -1) {
-                sp[sp.length - 2] = "tl";
+                sp[sp.length - 2] = "tb";
                 location.href = sp.join('/');;
             }
             else {
@@ -17,8 +17,8 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     }
     else if (720 <= pixelResolutionWidth) {
-        if (pathName != "tl") {
-            sp[sp.length - 2] = "tl";
+        if (pathName != "tb") {
+            sp[sp.length - 2] = "tb";
             location.href = sp.join('/');;
         }
     }
