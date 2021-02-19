@@ -8,10 +8,7 @@
 <body>
     <script>
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
-        // steamfestaで運用する場合は下記のリンクに差し替え
-        // var link = "https://steamfesta.benesse.co.jp"
-        var link = "https://nukegarapipo.github.io/GitHubWebPages";
-
+        var link = location.origin;
         if (1280 <= pixelResolutionWidth) {
             var userAgent = window.navigator.userAgent.toLowerCase();
             if (userAgent.indexOf("mobile") != -1) {
