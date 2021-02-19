@@ -101,19 +101,19 @@ header{
     background-image: url("../images/00_header/pc_tab_top_02.png") ;
 }
 
-.festatab {
-    background: url("../images/00_header/pc_tab_festa_01.png") no-repeat;
+.abouttab {
+    background: url("../images/00_header/pc_tab_about_01.png") no-repeat;
 }
  
-.festatab a {
+.abouttab a {
     width: 318px;
     height: 32px;
-    background: url("../images/00_header/pc_tab_festa_01.png")  no-repeat;
+    background: url("../images/00_header/pc_tab_about_01.png")  no-repeat;
     display: block;
 }
  
-.festatab a:hover {
-    background-image: url("../images/00_header/pc_tab_festa_02.png") ;
+.abouttab a:hover {
+    background-image: url("../images/00_header/pc_tab_about_02.png") ;
 }
 
 .supportertab {
@@ -187,19 +187,19 @@ header{
 	margin: 0 0 104px 0;
 }
 
-/* festa */
-.festahistoryback{
-	background-image: url("../images/02_festa/pc_festa_history_background.png");
+/* about */
+.abouthistoryback{
+	background-image: url("../images/02_about/pc_about_history_background.png");
 	background-repeat: no-repeat;
 	text-align: left;
 	margin-bottom: 88px;
 }
 
-.festahistoryback img{
+.abouthistoryback img{
 	margin: 0 auto 56px 216px;
 }
 
-.festahistoryback p{
+.abouthistoryback p{
 	font-size: 18px;
 	word-wrap: normal;
 	top: 127px;
@@ -207,11 +207,11 @@ header{
 	margin: 0 216px 0 216px;
 }
 
-.festamarker{
+.aboutmarker{
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
 }
 
-.festaback{
+.aboutback{
 	position: relative;
 	height: auto;
 }
@@ -228,38 +228,38 @@ header{
     border-bottom: 1px solid #C664F8;
 }
 
-.festatitle{
+.abouttitle{
 	text-align: left;
 }
 
-.festatitle img{
+.abouttitle img{
 	margin: 88px auto 56px 216px;
 }
 
-.festatable{
+.abouttable{
 	width: auto;
 	margin: 0 146px 0 146px;
 }
 
-.festablock{
+.aboutblock{
 	display: table;
 	width: 982px;
 	height: 469px;
 	text-align: center;
 }
 
-.festaitem{
+.aboutitem{
 	display: table-cell;
 	text-align: center;
 	padding: 0 10px 0 10px;
 }
 
-.festaitem h2{
+.aboutitem h2{
 	font-size: 22px;
 	margin: 0 0 28px 0;
 }
 
-.festaitem p{
+.aboutitem p{
 	font-size: 18px;
 	height: 68px;
 	margin: 20px 0 40px 0;

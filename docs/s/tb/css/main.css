@@ -124,23 +124,23 @@ div.scrollArea {
 	margin-bottom: 100px;
 }
 
-/* festa */
-.festahistory > img{
+/* about */
+.abouthistory > img{
 	margin: 62px auto 38px auto;
 }
 
-.festahistory > p{
+.abouthistory > p{
 	font-size: 30px;
 	text-align: left;
 	word-wrap: normal;
 	margin: 0 30px 81px 30px;
 }
 
-.festamarker{
+.aboutmarker{
 	background: linear-gradient(transparent 50%, #E7C2FA 0%);
 }
 
-.festaback{
+.aboutback{
 	position: relative;
 	height: 100%;
 }
@@ -157,27 +157,27 @@ div.scrollArea {
 	color: #C664F8;
 }
 
-.festatitle{
+.abouttitle{
 	text-align: center;
 }
 
-.festatitle img{
+.abouttitle img{
 	margin: 81px 0 62px 0;
 }
 
-.festa h3{
+.about h3{
 	font-size: 37px;
 }
 
-.festamargin{
+.aboutmargin{
 	margin-top: 100px;
 }
 
-.festa > img{
+.about > img{
 	margin: 38px 0 38px 0;
 }
 
-.festa > p{
+.about > p{
 	text-align: center;
 	word-wrap: normal;
 	font-size: 30px;
