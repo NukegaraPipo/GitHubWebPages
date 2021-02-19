@@ -10,6 +10,9 @@
     <script>
         var pixelResolutionWidth = window.screen.width * devicePixelRatio;
         var link = location.origin;
+        if (location.hostname != "steamfesta.benesse.co.jp") {
+            link += "/benesse-steam-festa";
+        }
 
         if (1280 <= pixelResolutionWidth) {
             var userAgent = window.navigator.userAgent.toLowerCase();
