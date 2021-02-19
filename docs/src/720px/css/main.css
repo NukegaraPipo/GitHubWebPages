@@ -285,15 +285,16 @@ footer small{
 /* 404NotFound */
 .notfound{
 	text-align: left;
+	font-size: 0;
 }
 
 .notfound h1{
-	font-size: 45px;
+	font-size: 30px;
 	margin: 62px 30px 18px 30px;
 }
 
 .notfound p{
-	font-size: 30px;
+	font-size: 25px;
 	margin: 20px 30px 0 30px;
 }
 

@@ -400,15 +400,16 @@ footer small{
 /* 404NotFound */
 .notfound{
 	text-align: left;
+	font-size: 0;
 }
 
 .notfound h1{
-	font-size: 45px;
+	font-size: 30px;
 	margin: 56px 216px 28px 216px;
 }
 
 .notfound p{
-	font-size: 30px;
+	font-size: 18px;
 	margin: 28px 216px 0 216px;
 }
 
@@ -417,7 +418,7 @@ footer small{
 }
 
 .notfound a{
-	font-size: 30px;
+	font-size: 20px;
 	border-bottom: 1px solid #27B1D9;
  	color:#27B1D9;
 }
