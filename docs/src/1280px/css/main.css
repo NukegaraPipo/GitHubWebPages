@@ -396,3 +396,28 @@ footer small{
 	font-size: 11px;
 	font-weight: 100;
 }
+
+/* 404NotFound */
+.notfound{
+	text-align: left;
+}
+
+.notfound h1{
+	font-size: 45px;
+	margin: 56px 216px 28px 216px;
+}
+
+.notfound p{
+	font-size: 30px;
+	margin: 28px 216px 0 216px;
+}
+
+.notfound div{
+	margin: 88px 216px 204px 216px;
+}
+
+.notfound a{
+	font-size: 30px;
+	border-bottom: 1px solid #27B1D9;
+ 	color:#27B1D9;
+}
