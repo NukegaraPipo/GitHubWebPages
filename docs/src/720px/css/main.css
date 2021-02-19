@@ -291,6 +291,7 @@ footer small{
 .notfound h1{
 	font-size: 30px;
 	margin: 62px 30px 18px 30px;
+	font-weight: bold;
 }
 
 .notfound p{
