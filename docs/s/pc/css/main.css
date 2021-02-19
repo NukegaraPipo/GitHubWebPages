@@ -86,63 +86,63 @@ header{
 	margin-bottom: 4px;
 }
 
-.tab01 {
+.toptab {
     background: url("../images/00_header/pc_tab_top_01.png") no-repeat;
 }
  
-.tab01 a {
+.toptab a {
     width: 318px;
     height: 32px;
     background: url("../images/00_header/pc_tab_top_01.png")  no-repeat;
     display: block;
 }
  
-.tab01 a:hover {
+.toptab a:hover {
     background-image: url("../images/00_header/pc_tab_top_02.png") ;
 }
 
-.tab02 {
+.festatab {
     background: url("../images/00_header/pc_tab_festa_01.png") no-repeat;
 }
  
-.tab02 a {
+.festatab a {
     width: 318px;
     height: 32px;
     background: url("../images/00_header/pc_tab_festa_01.png")  no-repeat;
     display: block;
 }
  
-.tab02 a:hover {
+.festatab a:hover {
     background-image: url("../images/00_header/pc_tab_festa_02.png") ;
 }
 
-.tab03 {
+.supportertab {
     background: url("../images/00_header/pc_tab_supporter_01.png") no-repeat;
 }
  
-.tab03 a {
+.supportertab a {
     width: 318px;
     height: 32px;
     background: url("../images/00_header/pc_tab_supporter_01.png")  no-repeat;
     display: block;
 }
  
-.tab03 a:hover {
+.supportertab a:hover {
     background-image: url("../images/00_header/pc_tab_supporter_02.png") ;
 }
 
-.tab04 {
+.reporttab {
     background: url("../images/00_header/pc_tab_report_01.png") no-repeat;
 }
  
-.tab04 a {
+.reporttab a {
     width: 318px;
     height: 32px;
     background: url("../images/00_header/pc_tab_report_01.png")  no-repeat;
     display: block;
 }
  
-.tab04 a:hover {
+.reporttab a:hover {
     background-image: url("../images/00_header/pc_tab_report_02.png") ;
 }
 
@@ -158,7 +158,7 @@ header{
 	z-index: 5;
 }
 
-/* tab01 */
+/* top */
 .topback{
 	background-image: url("../images/01_top/pc_top_background.png");
 	background-repeat: no-repeat;
@@ -187,7 +187,7 @@ header{
 	margin: 0 0 104px 0;
 }
 
-/* tab02 */
+/* festa */
 .festahistoryback{
 	background-image: url("../images/02_festa/pc_festa_history_background.png");
 	background-repeat: no-repeat;
@@ -265,7 +265,7 @@ header{
 	margin: 20px 0 40px 0;
 }
 
-/* tab03 */
+/* supporter */
 .supporterheadline{
 	text-align: left;
 	font-size: 0;
@@ -337,7 +337,7 @@ header{
 	word-wrap: normal;
 }
 
-/* tab04 */
+/* report */
 .report{
 	text-align: left;
 	width: 1280px;

@@ -102,7 +102,7 @@ div.scrollArea {
 	z-index: 5;
 }
 
-/* tab01 */
+/* top */
 .toptitle{
 	text-align: center;
 }
@@ -124,7 +124,7 @@ div.scrollArea {
 	margin-bottom: 100px;
 }
 
-/* tab02 */
+/* festa */
 .festahistory > img{
 	margin: 62px auto 38px auto;
 }
@@ -184,7 +184,7 @@ div.scrollArea {
 	margin: 0 0 30px 0;
 }
 
-/* tab03 */
+/* supporter */
 .supporterheadline{
 	text-align: center;
 	font-size: 0;
@@ -226,7 +226,7 @@ div.scrollArea {
 	margin: 38px 30px 0 30px;
 }
 
-/* tab04 */
+/* report */
 .report{
 	text-align: left;
 	width: 720px;
