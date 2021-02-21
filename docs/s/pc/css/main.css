@@ -271,12 +271,16 @@ header{
 	font-size: 0;
 }
 
-.supporterheadline .supporterheadline1{
+.supporterheadline1{
 	margin: 56px auto 0 216px;
 }
 
-.supporterheadline .supporterheadline2{
+.supporterheadline2{
 	margin: 104px auto 0 216px;
+}
+
+.supporterlist{
+	margin: 0 0 104px 0;
 }
 
 .supporterbackground{
@@ -284,16 +288,12 @@ header{
 	background-origin: content-box;
 }
 
-.organizer .supporterblock:nth-child(1){
-	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
-}
-
-.supporterlist .supporterbackground:nth-child(2n+1){
-	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
-}
-
-.supporterlist .supporterbackground:nth-child(2n){
+.supporterbackground:nth-child(2n){
 	background-image: url("../images/03_supporter/pc_supporter_rightbackground.png") ;
+}
+
+.supporterbackground:nth-child(2n+1){
+	background-image: url("../images/03_supporter/pc_supporter_leftbackground.png");
 }
 
 .supporterblock{
@@ -309,11 +309,11 @@ header{
 	width: 208px;
 }
 
-.iconright{
+.iconleft{
 	padding-right: 40px;
 }
 
-.iconleft{
+.iconright{
 	padding-left: 40px;
 }
 
